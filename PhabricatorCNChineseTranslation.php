@@ -8,28 +8,28 @@ final class PhabricatorCNChineseTranslation
   protected function getTranslations() {
     return array (
   // ---------------------------------------------------------------------------
-  //                                  __tests__                                 
+  //                                  __tests__
   // ---------------------------------------------------------------------------
 
   'In test cases, all applications should default to installed.' => NULL,
   'When this test fails, it means the Celerity resource map is out of date. Run `%s` to rebuild it.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Almanac                                  
+  //                                   Almanac
   // ---------------------------------------------------------------------------
 
-  '%s added the interface %s to this device.' => '%s 加入了介面 %s 到此装置。',
+  '%s added the interface %s to this device.' => '%s 加入了界面 %s 到此装置。',
   '%s changed interface %s on this device to %s.' => NULL,
   '%s changed this binding from %s to %s.' => NULL,
-  '%s created this binding.' => NULL,
+  '%s created this binding.' => '%s 建立了这个绑定',
   '%s created this device.' => '%s 建立了这个装置。',
   '%s created this namespace.' => '%s 建立了这个命名空间。',
   '%s created this network.' => '%s 建立了这个网路。',
   '%s created this service.' => '%s 建立了这个服务。',
-  '%s deleted the property "%s".' => NULL,
-  '%s disabled this binding.' => NULL,
-  '%s enabled this binding.' => NULL,
-  '%s locked this service.' => NULL,
+  '%s deleted the property "%s".' => '%s 删除了这个属性',
+  '%s disabled this binding.' => '%s 禁止了这个绑定',
+  '%s enabled this binding.' => '%s 启用了这个绑定',
+  '%s locked this service.' => '%s 锁定了这个服务',
   '%s removed the interface %s from this device.' => NULL,
   '%s renamed this device from "%s" to "%s".' => '%s 重新命名了这个装置从 "%s" 为 "%s"。',
   '%s renamed this namespace from "%s" to "%s".' => '%s 重新命名了这个命名空间从 "%s" 为 "%s"。',
@@ -41,7 +41,7 @@ final class PhabricatorCNChineseTranslation
   '%s:%s (%s)' => NULL,
   'A binding inherits the policies of its service.' => NULL,
   'Add Binding' => NULL,
-  'Add Interface' => '加入介面',
+  'Add Interface' => '加入界面',
   'Add Property' => '加入属性',
   'All Devices' => '所有装置',
   'All Namespaces' => '所有命名空间',
@@ -54,7 +54,7 @@ final class PhabricatorCNChineseTranslation
   'Almanac Core Objects' => NULL,
   'Almanac Device' => 'Almanac 装置',
   'Almanac Devices' => 'Almanac 装置',
-  'Almanac Interface' => 'Almanac 介面',
+  'Almanac Interface' => 'Almanac 界面',
   'Almanac Namespace' => 'Almanac 命名空间',
   'Almanac Namespaces' => 'Almanac 命名空间',
   'Almanac Network' => 'Almanac 网路',
@@ -75,15 +75,15 @@ final class PhabricatorCNChineseTranslation
   'Almanac service, device, property and namespace names must be at least 3 characters long.' => NULL,
   'Almanac service, device, property and namespace names must begin and end with a letter or number.' => NULL,
   'Almanac services must have unique names.' => NULL,
-  'Already Bound' => NULL,
+  'Already Bound' => '已经绑定',
   'An interface inherits the policies of the device it belongs to.' => NULL,
   'Another namespace with this name already exists. Each namespace must have a unique name.' => NULL,
-  'Binding' => NULL,
+  'Binding' => '绑定',
   'Binding %d' => NULL,
   'Binding %s' => NULL,
-  'Bindings must specify an interface.' => NULL,
+  'Bindings must specify an interface.' => '必须指定一个接口来绑定',
   'Bound Services' => '绑定服务',
-  'Browse Interfaces' => '浏览介面',
+  'Browse Interfaces' => '浏览界面',
   'Browse Service Types' => '浏览服务类型',
   'Browse Services' => '浏览服务',
   'Browse documentation for Almanac.' => '浏览 Almanac 的文件。',
@@ -92,7 +92,7 @@ final class PhabricatorCNChineseTranslation
   'Can Create Namespaces' => '可建立命名空间',
   'Can Create Networks' => '可建立网路',
   'Can Create Services' => '可建立服务',
-  'Can Manage Cluster Services' => '可管理丛集服务',
+  'Can Manage Cluster Services' => '可管理集群服务',
   'Choose Service Type' => '选择服务类型',
   'Cluster Database' => NULL,
   'Cluster Device' => NULL,
@@ -101,27 +101,27 @@ final class PhabricatorCNChineseTranslation
   'Control who can create new named services and devices.' => '控制谁可以建立新命名的服务与装置。',
   'Create Binding' => NULL,
   'Create Device' => '建立装置',
-  'Create Interface' => '建立介面',
+  'Create Interface' => '建立界面',
   'Create Namespace' => '建立命名空间',
   'Create Network' => '建立网路',
   'Create Property' => '建立属性',
   'Create Service' => '建立服务',
   'Create an inventory of physical and virtual hosts and devices.' => '建立实体及虚拟主机及装置的清单。',
-  'Create and update services, and map them to interfaces on devices.' => '建立与更新服务，以及对应服务到装置的介面。',
+  'Create and update services, and map them to interfaces on devices.' => '建立与更新服务，以及对应服务到装置的界面。',
   'Custom' => NULL,
   'Custom Property' => '自订属性',
   'Custom Service' => '自订服务',
-  'Defines a database service for use in a Phabricator cluster.' => '定义一个可用在 Phabricator 丛集的资料库服务。',
+  'Defines a database service for use in a Phabricator cluster.' => '定义一个可用在 Phabricator 集群的数据库服务。',
   'Defines a pool of hosts which Drydock can allocate.' => '定义一个 Drydock 可以配置的主机资源池。',
-  'Defines a repository service for use in a Phabricator cluster.' => '定义一个可用在 Phabricator 丛集的档桉库服务。',
+  'Defines a repository service for use in a Phabricator cluster.' => '定义一个可用在 Phabricator 集群的档桉库服务。',
   'Defines a unstructured custom service.' => '定义一个非结构化的自订服务。',
-  'Delete Interface' => '删除介面',
+  'Delete Interface' => '删除界面',
   'Delete Property' => '删除属性',
   'Delete property "%s"?' => NULL,
   'Device' => '装置',
   'Device %d' => '装置 %d',
   'Device %s' => '装置 %s',
-  'Device Interfaces' => '装置介面',
+  'Device Interfaces' => '装置界面',
   'Device Name' => '装置名称',
   'Device name is required.' => NULL,
   'Devices' => '装置',
@@ -160,9 +160,9 @@ final class PhabricatorCNChineseTranslation
   'Installing device %s...' => NULL,
   'Installing private key...' => NULL,
   'Installing public key...' => NULL,
-  'Interface' => '介面',
-  'Interface %d' => '介面 %d',
-  'Interface In Use' => '介面使用中',
+  'Interface' => '界面',
+  'Interface %d' => '界面 %d',
+  'Interface In Use' => '界面使用中',
   'Interfaces must have a port.' => NULL,
   'Interfaces must have an address.' => NULL,
   'Invalid Property' => NULL,
@@ -195,8 +195,8 @@ final class PhabricatorCNChineseTranslation
   'No services are bound to this device.' => '没有服务绑定到这个装置。',
   'No such device "%s" exists!' => NULL,
   'Path to a private key for the host.' => NULL,
-  'Phabricator Cluster: Database' => 'Phabricator 丛集: 资料库',
-  'Phabricator Cluster: Repository' => 'Phabricator 丛集: 档桉库',
+  'Phabricator Cluster: Database' => 'Phabricator 集群: 数据库',
+  'Phabricator Cluster: Repository' => 'Phabricator 集群: 档桉库',
   'Port numbers must be between 1 and 65535, inclusive.' => NULL,
   'Precomputed interface PHIDs must be of type AlmanacInterfacePHIDType.' => NULL,
   'Properties inherit the policies of their object.' => NULL,
@@ -264,7 +264,7 @@ final class PhabricatorCNChineseTranslation
   'This is an advanced feature which should normally be used only when building a Phabricator cluster. This feature is very dangerous if misused.' => NULL,
   'This key is associated with device "%s".' => NULL,
   'This permission is very dangerous. %s' => NULL,
-  'This service has not been bound to any device interfaces yet.' => '这个服务尚未绑定任何装置介面。',
+  'This service has not been bound to any device interfaces yet.' => '这个服务尚未绑定任何装置界面。',
   'This service is a cluster service. You do not have permission to edit cluster services, so you can not edit this service.' => NULL,
   'To create a new service, you must select a service type.' => NULL,
   'To view a binding, you must also be able to view its device and interface.' => NULL,
@@ -291,14 +291,14 @@ final class PhabricatorCNChineseTranslation
   'You do not have permission to create Almanac networks.' => '您没有权限建立 Almanac 网路。',
   'You do not have permission to create Almanac services within the "%s" namespace.' => '您没有权限建立 Almanac 服务在 "%s" 命名空间中。',
   'You do not have permission to create Almanac services.' => '您没有权限建立 Almanac 服务。',
-  'You do not have permission to create new cluster services.' => '您没有权限建立新丛集服务。',
-  'You do not have permission to manage Almanac cluster services.' => '您没有权限管理 Almanac 丛集服务。',
-  'You do not have permission to manage cluster services.' => '您没有权限管理丛集服务。',
+  'You do not have permission to create new cluster services.' => '您没有权限建立新集群服务。',
+  'You do not have permission to manage Almanac cluster services.' => '您没有权限管理 Almanac 集群服务。',
+  'You do not have permission to manage cluster services.' => '您没有权限管理集群服务。',
   'You have permission to create cluster services.' => NULL,
   'You must be able to view the network an interface resides on to view the interface.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Aphlict                                  
+  //                                   Aphlict
   // ---------------------------------------------------------------------------
 
   'A specified server (at index "%s", on port "%s") has an invalid type ("%s"). Valid types are: admin, client.' => NULL,
@@ -341,7 +341,7 @@ final class PhabricatorCNChineseTranslation
   'You must %s first!' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Aphront                                  
+  //                                   Aphront
   // ---------------------------------------------------------------------------
 
   '%s must implement %s.' => NULL,
@@ -374,7 +374,7 @@ final class PhabricatorCNChineseTranslation
   'Enter High Security' => NULL,
   'Entering High Security' => NULL,
   'Exception handler "%s" returned an invalid response from call to "%s". This method must return an object of class "%s", or an object which implements the "%s" interface.' => NULL,
-  'External Interface' => '外部介面',
+  'External Interface' => '外部界面',
   'Failure while producing response for object of class "%s": encountered production cycle (identical object, of class "%s", was produced twice).' => NULL,
   'Focus' => '专注',
   'HTTPS Required' => NULL,
@@ -447,20 +447,20 @@ Some UI elements (like %s) also have methods which will allow you to render link
   'Your account will remain in high security mode for a short period of time. When you are finished taking sensitive actions, you should leave high security.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                    Audit                                   
+  //                                    Audit
   // ---------------------------------------------------------------------------
 
   '%s accepted this commit.' => '%s 接受了这个提交。',
-  '%s added auditors to %s...' => '%s 加入了稽查员到 %s...',
-  '%s added auditors to %s: %s.' => '%s 加入了稽查员到 %s: %s。',
-  '%s added auditors...' => '%s 加入了稽查员',
-  '%s added auditors: %s.' => '%s 加入了稽查员: %s。',
+  '%s added auditors to %s...' => '%s 加入了审查员到 %s...',
+  '%s added auditors to %s: %s.' => '%s 加入了审查员到 %s: %s。',
+  '%s added auditors...' => '%s 加入了审查员',
+  '%s added auditors: %s.' => '%s 加入了审查员: %s。',
   '%s added inline comments to %s.' => '%s 加入了行内评论到 %s。',
   '%s added inline comments.' => '%s 加入了行内评论。',
   '%s added subscribers...' => '%s 加入了订阅者...',
   '%s added subscribers: %s.' => '%s 加入了订阅者: %s。',
   '%s closed the audit of %s.' => NULL,
-  '%s closed this audit.' => '%s 关闭了这个稽查。',
+  '%s closed this audit.' => '%s 关闭了这个审查。',
   '%s committed %s (authored by %s).' => '%s 提交了 %s (着作由 %s)。',
   '%s committed %s.' => '%s 提交了 %s。',
   '%s edited auditors for %s; added: %s, removed: %s.' => NULL,
@@ -478,27 +478,27 @@ Some UI elements (like %s) also have methods which will allow you to render link
   '(Unknown Commit)' => '(不明提交)',
   '(Untitled Commit)' => '(未命名提交)',
   'A commit has a concerned raised against it.' => '提交有被提出顾虑。',
-  'A commit has an auditor resign.' => '提交有稽查员放弃。',
-  'A commit has auditors added.' => '提交有稽查员加入。',
+  'A commit has an auditor resign.' => '提交有审查员放弃。',
+  'A commit has auditors added.' => '提交有审查员加入。',
   'A commit is accepted.' => '提交已接受。',
   'A commit is closed.' => '提交已关闭。',
   'A commit is created.' => '提交已建立。',
   'A commit\'s projects change.' => '提交的专桉变更。',
   'A commit\'s subscribers change.' => '提交的订阅者变更。',
   'AFFECTED FILES' => '影响的档桉',
-  'Active Audits' => '处理中的稽查',
-  'Added Auditors' => '已加入稽查员',
+  'Active Audits' => '处理中的审查',
+  'Added Auditors' => '已加入审查员',
   'All Commits' => '所有提交',
-  'Audit' => '稽查',
-  'Audit Not Required' => '无须稽查',
-  'Audit Requested' => '已请求稽查',
-  'Audit Required' => '需要稽查',
-  'Audit Status' => '稽查状态',
-  'Audited' => '已稽查',
-  'Auditor' => '稽查员',
-  'Auditors: %s' => '稽查员: %s',
-  'Audits' => '稽查',
-  'Browse and Audit Commits' => '浏览并稽查提交',
+  'Audit' => '审查',
+  'Audit Not Required' => '无须审查',
+  'Audit Requested' => '已请求审查',
+  'Audit Required' => '需要审查',
+  'Audit Status' => '审查状态',
+  'Audited' => '已审查',
+  'Auditor' => '审查员',
+  'Auditors: %s' => '审查员: %s',
+  'Audits' => '审查',
+  'Browse and Audit Commits' => '浏览并审查提交',
   'COMMIT' => '提交',
   'Concern Raised' => '已提出顾虑',
   'Delete audit requests matching parameters.' => NULL,
@@ -508,7 +508,7 @@ Some UI elements (like %s) also have methods which will allow you to render link
   'Find or exclude unreachable commits which are not ancestors of any branch, tag, or ref.' => NULL,
   'Hide Unreachable Commits' => '隐藏无法取得的提交',
   'Needs Verification' => '需要检验',
-  'No Audits' => '没有稽查',
+  'No Audits' => '没有审查',
   'No audits match the query.' => NULL,
   'No changes for "%s".' => NULL,
   'No commits found.' => '查无提交。',
@@ -517,8 +517,8 @@ Some UI elements (like %s) also have methods which will allow you to render link
   'Object "%s" is not a valid object.' => NULL,
   'Object "%s" is not a valid repository or commit.' => NULL,
   'Other commit activity not listed above occurs.' => '上述未列到的其他提交活动。',
-  'Partially Audited' => '已部份稽查',
-  'Post-commit code review and auditing. Audits you are assigned to will appear here.' => '提交后程式码审查与稽查，分配给您的稽查会在此处显示。',
+  'Partially Audited' => '已部份审查',
+  'Post-commit code review and auditing. Audits you are assigned to will appear here.' => '提交后程式码审查与审查，分配给您的审查会在此处显示。',
   'Query audit requests.' => NULL,
   'Raised Concern' => '已提出顾虑',
   'Really delete these %d audit(s)? They will be permanently deleted and can not be recovered.' => NULL,
@@ -548,11 +548,11 @@ Some UI elements (like %s) also have methods which will allow you to render link
   'Updating "%s" (%s)...' => NULL,
   'Updating "%s": "%s" -> "%s".' => NULL,
   'Was CC\'d' => NULL,
-  'Welcome to Audit' => '欢迎光临稽查',
+  'Welcome to Audit' => '欢迎光临审查',
   'none' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                    Auth                                    
+  //                                    Auth
   // ---------------------------------------------------------------------------
 
   '"%s" Account' => '"%s" 帐号',
@@ -612,7 +612,7 @@ After completing configuration, copy the **Client ID** and **Client Secret** to 
   '(Some types of token can not be revoked, and you can not revoke tokens which have already expired.)' => NULL,
   '(WARNING) Examine the table below for information on how password hashes will be stored in the database.
 
-(NOTE) You can select a minimum password length by setting `%s` in configuration.' => '(WARNING) 请查看以下表格来了解资讯会被以何种密码杂凑加密储存到资料库。
+(NOTE) You can select a minimum password length by setting `%s` in configuration.' => '(WARNING) 请查看以下表格来了解资讯会被以何种密码杂凑加密储存到数据库。
 
 (NOTE) 您可以透过 Config 中的设定 `%s` 来指定密码长度下限。',
   '(You can not terminate your current login session. To terminate it, log out.)' => NULL,
@@ -656,7 +656,7 @@ After completing configuration, copy the **Client ID** and **Client Secret** to 
   - **Public Key**: Set this to the "Public Key" value in the form above.
   - **Consumer Callback URL**: `%s`
 Click **Save** in JIRA. Authentication should now be configured, and this provider should work correctly.' => NULL,
-  '= Integration Options = 
+  '= Integration Options =
 Configure how to record Revisions on JIRA tasks.
 
 Note you\'ll have to restart the daemons for this to take effect.' => NULL,
@@ -783,7 +783,7 @@ Phabricator
 ',
   'Configure %s OAuth.' => '设定 %s OAuth。',
   'Configure JIRA OAuth. NOTE: Only supports JIRA 6.' => '设定 JIRA OAuth。注意: 仅支援 JIRA 6。',
-  'Configure a connection to an LDAP server so that users can use their LDAP credentials to log in to Phabricator.' => '设定 LDAP 伺服器连线，让使用者可以使用在 LDAP 的凭证登入 Phabricator。',
+  'Configure a connection to an LDAP server so that users can use their LDAP credentials to log in to Phabricator.' => '设定 LDAP 服务器连线，让使用者可以使用在 LDAP 的凭证登入 Phabricator。',
   'Confirm %s Account Link' => '确认 %s 帐号连结',
   'Confirm Account Link' => '确认帐号连结',
   'Confirm External Account Link' => '确认外部帐号连结',
@@ -1085,7 +1085,7 @@ Phabricator
   'Specify the credential type to revoke with "--type" or specify "--everything".' => NULL,
   'Specify the target to revoke credentals from with "--from" or specify "--everywhere".' => NULL,
   'Specify the target to revoke credentials from with "--from" or specify "--everywhere", but not both.' => NULL,
-  'Start TLS after binding to the LDAP server.' => '在连线至 LDAP 伺服器之后启动 TLS。',
+  'Start TLS after binding to the LDAP server.' => '在连线至 LDAP 服务器之后启动 TLS。',
   'Stay' => NULL,
   'Strength' => '强度',
   'Strip a specific factor type.' => NULL,
@@ -1369,7 +1369,7 @@ All of the attribute names used here are just examples: your LDAP server may use
   - 您想要让使用者能够使用其使用者名称或其电子邮件位址登入。
   - 登入/使用者名称并非 LDAP 记录辨识名称 (DN) 的一部份。
   - 您想要限制只有一部份的使用者能够登入 (例如只允许在某个部门中的使用者)。
-  - 您的 LDAP 伺服器被设定成使用直接连线无法正常运作的模式。
+  - 您的 LDAP 服务器被设定成使用直接连线无法正常运作的模式。
 
 **要直接连线** 可输入与登入名称对应的 LDAP 属性至下方 **搜寻属性** 输入框，通常这个值会是 `sn` 或 `uid`。这是最简单的设定方式，但只有在使用者名称是辨识名称的一部份时才可用，且无法让您在登入使用较複杂的限制规则。
 
@@ -1397,7 +1397,7 @@ All of the attribute names used here are just examples: your LDAP server may use
   (&(mail=${login})(|(departmentNumber=1)(departmentNumber=2)))
   (&(sn=${login})(|(departmentNumber=1)(departmentNumber=2)))
 
-所有上述使用的属性名称只是范例：您的 LDAP 伺服器可能使用其他的属性名称。',
+所有上述使用的属性名称只是范例：您的 LDAP 服务器可能使用其他的属性名称。',
   'When you are ready, %s.' => NULL,
   'Will Ignore Address' => NULL,
   'Will Send Invite' => NULL,
@@ -1466,7 +1466,7 @@ All of the attribute names used here are just examples: your LDAP server may use
   'user=%s, verified=%s, primary=%s, should_verify=%s' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Badges                                   
+  //                                   Badges
   // ---------------------------------------------------------------------------
 
   '%s awarded %s to %s recipient(s): %s.' => NULL,
@@ -1607,7 +1607,7 @@ All of the attribute names used here are just examples: your LDAP server may use
   '[Badge]' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                    Base                                    
+  //                                    Base
   // ---------------------------------------------------------------------------
 
   '%s Application' => '%s 应用程式',
@@ -1635,7 +1635,7 @@ All of the attribute names used here are just examples: your LDAP server may use
   'Utilities' => '工具',
 
   // ---------------------------------------------------------------------------
-  //                                    Cache                                   
+  //                                    Cache
   // ---------------------------------------------------------------------------
 
   '"%s" Disabled' => '"%s" 已关闭',
@@ -1699,7 +1699,7 @@ All of the attribute names used here are just examples: your LDAP server may use
   'Zend OPcache Not Installed' => 'Zend OPcache 安装',
 
   // ---------------------------------------------------------------------------
-  //                                  Calendar                                  
+  //                                  Calendar
   // ---------------------------------------------------------------------------
 
   '%s - %s' => NULL,
@@ -2164,7 +2164,7 @@ If you specify an invalid rsvp, the command is ignored. This command has no effe
   'event invitees' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                  Celerity                                  
+  //                                  Celerity
   // ---------------------------------------------------------------------------
 
   'Attempting to add more metadata after metadata has been locked.' => NULL,
@@ -2200,7 +2200,7 @@ If you specify an invalid rsvp, the command is ignored. This command has no effe
   'Writing map "%s".' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Chatlog                                  
+  //                                   Chatlog
   // ---------------------------------------------------------------------------
 
   '(Deprecated)' => '(已停用)',
@@ -2218,7 +2218,7 @@ If you specify an invalid rsvp, the command is ignored. This command has no effe
   'Search Dates' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Common                                   
+  //                                   Common
   // ---------------------------------------------------------------------------
 
   '"%s"' => NULL,
@@ -2258,7 +2258,7 @@ If you specify an invalid rsvp, the command is ignored. This command has no effe
   'Applications' => '应用程式',
   'Archived' => '已封存',
   'Assigned Tasks' => '已分配工作',
-  'Auditors' => '稽查员',
+  'Auditors' => '审查员',
   'Authentication' => '认証',
   'Author' => '作者',
   'Author: %s' => '作者: %s',
@@ -2318,14 +2318,14 @@ If you specify an invalid rsvp, the command is ignored. This command has no effe
   'Description' => '描述',
   'Details' => '详细资料',
   'Diff' => '差异',
-  'Diffusion' => NULL,
+  'Diffusion' => '代码管理',
   'Disable' => '关闭',
   'Disabled' => '已关闭',
   'Document' => '文件',
   'Documentation' => '文件',
   'Done' => '完成',
   'Done.' => '已完成。',
-  'Duplicate' => '重複',
+  'Duplicate' => '重复',
   'Duration' => '期间',
   'Edit' => '编辑',
   'Edit %s' => '编辑 %s',
@@ -2461,7 +2461,7 @@ If you specify an invalid rsvp, the command is ignored. This command has no effe
   'Terminate' => '终止',
   'Test' => '测试',
   'Text' => '文字',
-  'This server only supports these image formats: %s.' => '此伺服器只支援以下图片格式: %s。',
+  'This server only supports these image formats: %s.' => '此服务器只支援以下图片格式: %s。',
   'Thursday' => '星期四',
   'Title' => '标题',
   'Token' => NULL,
@@ -2507,7 +2507,7 @@ If you specify an invalid rsvp, the command is ignored. This command has no effe
   'Yes' => '是',
 
   // ---------------------------------------------------------------------------
-  //                                   Conduit                                  
+  //                                   Conduit
   // ---------------------------------------------------------------------------
 
   '%s should require authentication.' => NULL,
@@ -2549,7 +2549,7 @@ If you specify an invalid rsvp, the command is ignored. This command has no effe
   'Client is unknown.' => NULL,
   'Client/server version mismatch. Upgrade your client.' => NULL,
   'Client/server version mismatch. Upgrade your server or downgrade your client.' => NULL,
-  'Cluster API Token' => '丛集 API Token',
+  'Cluster API Token' => '集群 API Token',
   'Command Line API Token' => '指令列 API Token',
   'Conduit' => NULL,
   'Conduit API Overview' => NULL,
@@ -2643,7 +2643,7 @@ If you specify an invalid rsvp, the command is ignored. This command has no effe
   'See error message for details.' => '查看错误讯以取得详细资讯。',
   'Session key is invalid.' => NULL,
   'Session key is not present.' => NULL,
-  'Show established API methods with stable interfaces.' => '显示有稳定介面的正式 API 方法。',
+  'Show established API methods with stable interfaces.' => '显示有稳定界面的正式 API 方法。',
   'Show new methods which are subject to change.' => '显示有可能会变动的新方法。',
   'Show old methods which will be deleted in a future version of Phabricator.' => '显示未来将会从 Phabricator 中删除的方法。',
   'Signature verification failure. %s' => NULL,
@@ -2696,7 +2696,7 @@ If you specify an invalid rsvp, the command is ignored. This command has no effe
   'cURL' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Config                                   
+  //                                   Config
   // ---------------------------------------------------------------------------
 
   ' (%s)' => NULL,
@@ -2752,9 +2752,9 @@ Either adjust the configuration setting %s or restart the daemons. Daemons shoul
   'Add One Path' => '加入一个路径',
   'Additional configuration options to hide.' => '要隐藏的其他设定选项。',
   'Additional configuration options to lock.' => '要锁定的其他设定选项。',
-  'Address ranges of cluster hosts.' => '丛集主机的位址范围。',
+  'Address ranges of cluster hosts.' => '集群主机的位址范围。',
   'Adjust %s in your PHP configuration to at least 32MB. When set to smaller value, large file uploads may not work properly.' => NULL,
-  'Admin Server' => '管理伺服器',
+  'Admin Server' => '管理服务器',
   'After editing the PHP configuration, <strong>restart Phabricator for the changes to take effect</strong>. For help with restarting Phabricator, see %s in the documentation.' => '在编辑 PHP 设定之后，要<strong>重新启动 Phabricator 来让变更生效</strong>。要取得有关重新启动 Phabricator 的协助详见说明文件中的 %s。',
   'After installing new PHP extensions, <strong>restart Phabricator for the changes to take effect</strong>. For help with restarting Phabricator, see %s in the documentation.' => NULL,
   'After rebuilding the index, run this command to clear this setup warning:' => NULL,
@@ -2773,7 +2773,7 @@ Specify a list of dictionaries. Each dictionary describes a footer item. These k
   - `name` The name of the item.
   - `href` Optionally, the link target of the item. You can     omit this if you just want a piece of text, like a copyright     notice.' => NULL,
   'Allows you to add footer links on most pages.' => '让您可在大多数页面的加上页尾连结。',
-  'Allows you to remove levity and jokes from the UI.' => '让您移除使用者介面上轻率的言词与玩笑话。',
+  'Allows you to remove levity and jokes from the UI.' => '让您移除使用者界面上轻率的言词与玩笑话。',
   'Alternate File Domain Not Configured' => '未设定替代的档桉网域',
   'Alternate domain to serve files from.' => '提供档桉的替代网域。',
   'Alternative URIs that can access Phabricator.' => '也可存取 Phabricator 的其他 URI。',
@@ -2829,16 +2829,16 @@ You should configure a CDN or alternate file domain to mitigate this risk. Confi
   'Clear Cache' => '清空快取',
   'Client Server' => NULL,
   'Clients' => '客户端',
-  'Cluster' => '资料丛集',
-  'Cluster Configuration Out of Sync' => '丛集设定未同步',
-  'Cluster Database Status' => '丛集资料库状态',
-  'Cluster Notifications' => '丛集通知',
-  'Cluster Repository Status' => '丛集档桉库状态',
-  'Cluster Search' => '丛集搜寻',
-  'Cluster Setup' => '丛集安装',
-  'Cluster: Databases' => '丛集: 资料库',
-  'Cluster: Search' => '丛集: 搜寻',
-  'Clustering Introduction' => '丛集简介',
+  'Cluster' => '资料集群',
+  'Cluster Configuration Out of Sync' => '集群设定未同步',
+  'Cluster Database Status' => '集群数据库状态',
+  'Cluster Notifications' => '集群通知',
+  'Cluster Repository Status' => '集群档桉库状态',
+  'Cluster Search' => '集群搜寻',
+  'Cluster Setup' => '集群安装',
+  'Cluster: Databases' => '集群: 数据库',
+  'Cluster: Search' => '集群: 搜寻',
+  'Clustering Introduction' => '集群简介',
   'Collation' => '编码与排序',
   'Collectors with custom policies are highlighted. Use %s to change retention policies.' => '使用自订原则的回收器会明显标示，可使用 %s 来更改保留原则。',
   'Column' => '栏位',
@@ -2859,7 +2859,7 @@ You should configure a CDN or alternate file domain to mitigate this risk. Confi
   'Config option \'%s\' is invalid. The URI must contain a dot (\'.\'), like \'%s\', not just a bare name like \'%s\'. Some web browsers will not set cookies on domains with no TLD.' => NULL,
   'Config option \'%s\' is invalid. The URI must start with %s\' or \'%s\'.' => NULL,
   'Config option \'%s\' is invalid. The URI must start with \'%s\' or \'%s\'.' => NULL,
-  'Config option \'%s\' is invalid. The timezone identifier must be a valid timezone identifier recognized by PHP, like \'%s\'. 
+  'Config option \'%s\' is invalid. The timezone identifier must be a valid timezone identifier recognized by PHP, like \'%s\'.
             You can find a list of valid identifiers here: %s' => NULL,
   'Configuration Guide: Configuring a File Domain' => '设定指南: 设定档桉网域',
   'Configuration Guide: Locked and Hidden Configuration' => '设定指南: 已锁定与已隐藏的设定',
@@ -2872,20 +2872,20 @@ You should configure a CDN or alternate file domain to mitigate this risk. Confi
   'Configure Mailgun integration.' => '设定 Mailgun 整合。',
   'Configure PHPMailer.' => '设定 PHPMailer。',
   'Configure Phabricator' => '设定 Phabricator',
-  'Configure Phabricator to run on a cluster of hosts.' => '设定 Phabricator 做为丛集中的主机执行。',
+  'Configure Phabricator to run on a cluster of hosts.' => '设定 Phabricator 做为集群中的主机执行。',
   'Configure Recaptcha captchas.' => '设定 Recaptcha captcha。',
   'Configure SMS.' => '设定 SMS。',
   'Configure SendGrid integration.' => '设定 SendGrid 整合',
   'Configure TLS or SSL for SMTP.' => '设定 SMTP 的 TLS 或 SSL。',
   'Configure core options, including URIs.' => '设定核心选项，包含 URI。',
-  'Configure database read replicas.' => '设定资料库读取备援。',
+  'Configure database read replicas.' => '设定数据库读取备援。',
   'Configure full-text search services.' => '设定全文搜索服务。',
   'Configure how mail is encoded.' => '设定要使用何种方式将邮件编码。',
   'Configure integration with AWS (EC2, SES, S3, etc).' => '设定与 AWS (EC2, SES, S3 等) 整合。',
   'Configure mailer used by PHPMailer.' => '设定 PHPMailer 要採用的邮递方式。',
   'Configure master encryption keys.' => '设定主要加密金钥。',
   'Configure real-time notifications.' => '设定即时通知。',
-  'Configure the Phabricator UI, including colors.' => '设定 Phabricator 使用者介面，包含色彩。',
+  'Configure the Phabricator UI, including colors.' => '设定 Phabricator 使用者界面，包含色彩。',
   'Configure the access logs, which log HTTP/SSH requests.' => '设定存取记录，记录 HTTP/SSH 请求。',
   'Configured location for storing uploaded files on disk ("%s") does not exist, or is not readable or writable. Verify the directory exists and is readable and writable by the webserver.' => NULL,
   'Configuring File Storage' => '设定档桉储存库',
@@ -2933,14 +2933,14 @@ Once you activate DarkConsole for the install, **you need to enable it for your 
 DarkConsole exposes potentially sensitive data (like queries, stack traces, and configuration) so you generally should not turn it on in production.' => NULL,
   'Data Cache' => '资料快取',
   'Data Type' => '资料型态',
-  'Database' => '资料库',
-  'Database Issues' => '资料库问题',
-  'Database Servers' => '资料库伺服器',
-  'Database Status' => '资料库状态',
-  'Database Status: %s.%s (%s)' => '资料库状态: %s.%s (%s)',
-  'Database Status: %s.%s.%s' => '资料库状态: %s.%s.%s',
-  'Database Value' => '资料库数值',
-  'Database configuration.' => '资料库设定。',
+  'Database' => '数据库',
+  'Database Issues' => '数据库问题',
+  'Database Servers' => '数据库服务器',
+  'Database Status' => '数据库状态',
+  'Database Status: %s.%s (%s)' => '数据库状态: %s.%s (%s)',
+  'Database Status: %s.%s.%s' => '数据库状态: %s.%s.%s',
+  'Database Value' => '数据库数值',
+  'Database configuration.' => '数据库设定。',
   'Database host "%s" does not support the %s option. You will not be able to find search results for common words. You can gain access to this option by upgrading MySQL to a more recent version.
 
 You can ignore this warning if you plan to configure Elasticsearch later, or aren\'t concerned about searching for common words.' => NULL,
@@ -2983,9 +2983,9 @@ Finally, run this command to rebuild indexes using the new rules:
 
 %s' => NULL,
   'Database replica "%s" is listed as a replica, but is not currently replicating. You are vulnerable to data loss if the master fails.' => NULL,
-  'Database source is not configured properly' => '未正确设定资料库来源',
-  'Database: %s' => '资料库: %s',
-  'Database: %s.%s' => '资料库: %s.%s',
+  'Database source is not configured properly' => '未正确设定数据库来源',
+  'Database: %s' => '数据库: %s',
+  'Database: %s.%s' => '数据库: %s.%s',
   'Default "From" address.' => '预设 "From" 位址。',
   'Default "from" number.' => '预设 "from" 位址。',
   'Default Partition' => NULL,
@@ -3034,7 +3034,7 @@ When cluster addresses are defined, Phabricator hosts will also reject requests 
   'Don\'t embed YouTube videos' => '不要内嵌 YouTube 影片',
   'Don\'t minify static resources.' => '不要压缩静态资源。',
   'Don\'t require email verification' => '不需要邮件验証',
-  'Done. Migrated %d keys.' => '完成。已合併 %d 个键值。',
+  'Done. Migrated %d keys.' => '完成。已合并 %d 个键值。',
   'Edge Types' => 'Edge 类型',
   'Edit "%s"' => '编辑 "%s"',
   'Edit Option: %s' => '编辑选项: %s',
@@ -3220,16 +3220,16 @@ Supported values are `8bit`, `quoted-printable`, `7bit`, `binary` and `base64`.'
   'MySQL (on host "%s") is using a default stopword file, which will prevent searching for many common words.' => NULL,
   'MySQL InnoDB Engine Not Available' => 'MySQL 无法使用 InnoDB 引擎',
   'MySQL May Run Slowly' => 'MySQL 可能执行缓慢',
-  'MySQL database hostname.' => 'MySQL 资料库主机名称。',
+  'MySQL database hostname.' => 'MySQL 数据库主机名称。',
   'MySQL is Using Default Minimum Word Length' => 'MySQL 使用预设的 Minimum Word Length',
   'MySQL is Using Default Stopword File' => 'MySQL 使用预设的 Stopword 档桉',
   'MySQL is configured (on host "%s") to only index words with at least %d characters.' => NULL,
   'MySQL is in ONLY_FULL_GROUP_BY mode (on host "%s"), but using this mode is strongly discouraged.' => NULL,
   'MySQL is not in strict mode (on host "%s"), but using strict mode is strongly encouraged.' => 'MySQL 未使用严谨模式 (于主机 "%s" 上)，强烈建议使用严谨模式。',
   'MySQL on this machine' => NULL,
-  'MySQL password to use when connecting to the database.' => '连线到资料库时要使用的 MySQL 密码。',
-  'MySQL port to use when connecting to the database.' => '连线到资料库时要使用的 MySQL 埠号。',
-  'MySQL username to use when connecting to the database.' => '连线到资料库时要使用的 MySQL 使用者名称。',
+  'MySQL password to use when connecting to the database.' => '连线到数据库时要使用的 MySQL 密码。',
+  'MySQL port to use when connecting to the database.' => '连线到数据库时要使用的 MySQL 埠号。',
+  'MySQL username to use when connecting to the database.' => '连线到数据库时要使用的 MySQL 使用者名称。',
   'Names must match to compare schemata!' => NULL,
   'Newly registered Phabricator accounts can either be placed into a manual approval queue for administrative review, or automatically activated immediately. The approval queue is enabled by default because it gives you greater control over who can register an account and access Phabricator.
 
@@ -3255,11 +3255,11 @@ NOTE: Before you disable the queue, make sure {{auth.email-domains}} is configur
   'No Schema Issues' => '没有架构问题',
   'No Sendmail Binary Found' => NULL,
   'No active repositories have outstanding errors.' => '没有使用中的档桉库发生错误。',
-  'No databases have any issues.' => '没有资料库有任何问题。',
-  'No notification servers are configured.' => '尚未设定通知伺服器。',
+  'No databases have any issues.' => '没有数据库有任何问题。',
+  'No notification servers are configured.' => '尚未设定通知服务器。',
   'No performance sampling.' => NULL,
   'No profiling' => NULL,
-  'No repository cluster services are configured.' => '尚未设定档桉库丛集服务。',
+  'No repository cluster services are configured.' => '尚未设定档桉库集群服务。',
   'No search servers are configured.' => NULL,
   'No such configuration key \'%s\'! Use `%s` to list all keys.' => NULL,
   'None of the caches on this page can be cleared.' => NULL,
@@ -3276,7 +3276,7 @@ Since profiling is slow and generates a lot of data, you should set this to 0 in
 NOTE: You must install XHProf for profiling to work.' => NULL,
   'Not Enabled' => NULL,
   'Note that the default format is subject to change in the future, so if you rely on the log\'s format, specify it explicitly.' => NULL,
-  'Notification Servers' => '通知伺服器',
+  'Notification Servers' => '通知服务器',
   'Notifications User Guide: Setup and Configuration' => '通知使用指南: 安装与设定',
   'Notifications no longer have a dedicated debugging mode.' => NULL,
   'Nullable' => '可空值',
@@ -3346,7 +3346,7 @@ You can find more information about this mode (and how to configure it) in the M
   'Phabricator Setup Error' => NULL,
   'Phabricator appears to be installed on a very small EC2 instance (of class "%s") with burstable CPU. This is strongly discouraged. Phabricator regularly needs CPU, and these instances are often choked to death by CPU throttling. Use an instance with a normal CPU instead.' => NULL,
   'Phabricator can highlight PHP by default and use Pygments for other languages if enabled. You can provide a custom highlighter engine by extending class %s.' => NULL,
-  'Phabricator can highlight a few languages by default, but installing and enabling Pygments (a third-party highlighting tool) will add syntax highlighting for many more languages. 
+  'Phabricator can highlight a few languages by default, but installing and enabling Pygments (a third-party highlighting tool) will add syntax highlighting for many more languages.
 
 For instructions on installing and enabling Pygments, see the %s configuration option.
 
@@ -3356,7 +3356,7 @@ If you do not want to install Pygments, you can ignore this issue.' => NULL,
   'Phabricator is currently configured to serve user uploads directly from the same domain as other content. This is a security risk.
 
 Configure a CDN (or alternate file domain) to eliminate this risk. Using a CDN will also improve performance. See the guide below for instructions.' => NULL,
-  'Phabricator is not configured in cluster mode.' => 'Phabricator 尚未设定为丛集模式。',
+  'Phabricator is not configured in cluster mode.' => 'Phabricator 尚未设定为集群模式。',
   'Phabricator no longer shows reply hints in mail.' => NULL,
   'Phabricator no longer supports global customization of monospaced fonts.' => NULL,
   'Phabricator now always sends transaction mail with "Precedence: bulk" to improve deliverability.' => NULL,
@@ -3444,7 +3444,7 @@ This option defines a list of netblocks which Phabricator will decline to connec
   'Repository %s has an ambiguous leader.' => NULL,
   'Repository %s has unreplicated changes (for %s).' => NULL,
   'Repository %s has unreplicated changes.' => NULL,
-  'Repository Servers' => '档桉库伺服器',
+  'Repository Servers' => '档桉库服务器',
   'Request has bad "Host" header.' => NULL,
   'Request input, in bytes.' => NULL,
   'Request output, in bytes.' => NULL,
@@ -3476,7 +3476,7 @@ This option defines a list of netblocks which Phabricator will decline to connec
   'Sample every request (slow).' => NULL,
   'Save Config Entry' => '储存设定项目',
   'Schema Status' => '架构状态',
-  'Search Servers' => '搜寻伺服器',
+  'Search Servers' => '搜寻服务器',
   'Secret key for Amazon EC2.' => 'Amazon EC2 的密钥。',
   'Secret key for Amazon S3.' => 'Amazon S3 的密钥。',
   'Secret key for Amazon SES.' => 'Amazon SES 的密钥。',
@@ -3491,8 +3491,8 @@ This option defines a list of netblocks which Phabricator will decline to connec
   'Separate values with newlines or commas.' => '使用换行或逗号来分隔数值。',
   'Separate values with newlines.' => '使用换行来分隔数值。',
   'Serious business' => NULL,
-  'Server' => '伺服器',
-  'Server Timezone Not Configured' => '未设定伺服器时区',
+  'Server' => '服务器',
+  'Server Timezone Not Configured' => '未设定服务器时区',
   'Sessions now expire and are garbage collected rather than having an arbitrary concurrency limit.' => NULL,
   'Set %s in your PHP configuration to at least 32MB to support large file uploads.' => NULL,
   'Set \'%s\' in %s configuration.' => NULL,
@@ -3664,8 +3664,8 @@ To learn more about how this issue affects Phabricator, see %s.' => NULL,
   'This configuration has been removed. You can safely delete it.
 
 %s' => NULL,
-  'This configuration is hidden and can not be edited or viewed from the web interface.' => '此项设定已隐藏，无法从网页介面编辑或检视。',
-  'This configuration is locked and can not be edited from the web interface. Use %s in %s to edit it.' => '此项设定已锁定，无法从网页介面编辑。请使用 %s 于 %s 来编辑此项设定。',
+  'This configuration is hidden and can not be edited or viewed from the web interface.' => '此项设定已隐藏，无法从网页界面编辑或检视。',
+  'This configuration is locked and can not be edited from the web interface. Use %s in %s to edit it.' => '此项设定已锁定，无法从网页界面编辑。请使用 %s 于 %s 来编辑此项设定。',
   'This configuration is no longer relevant because daemons restart automatically on configuration changes.' => NULL,
   'This configuration option has been replaced with a modular handler. See T9346.' => NULL,
   'This configuration option is unknown. It may be misspelled, or have existed in a previous version of Phabricator.' => NULL,
@@ -3827,7 +3827,7 @@ If you are confident you have a recent version of "%s" installed and working cor
   'Use the %s to manage installed applications.' => NULL,
   'User Guide: Amazon RDS' => '使用指南: Amazon RDS',
   'User Guide: Prototype Applications' => '使用指南: 雏形应用程式',
-  'User Interface' => '使用者介面',
+  'User Interface' => '使用者界面',
   'Username for SMTP.' => 'SMTP 的使用者名称。',
   'Users can configure a URI pattern to open files in a text editor. The URI must use a protocol on this whitelist.' => NULL,
   'Using PHPMailer with SMTP, you can set this to one of \'%s\' or \'%s\' to use TLS or SSL, respectively. Leave it blank for vanilla SMTP. If you\'re sending via Gmail, set it to \'%s\'.' => NULL,
@@ -3924,7 +3924,7 @@ Disable this setting to continue.' => NULL,
   'extname' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                 Conpherence                                
+  //                                 Conpherence
   // ---------------------------------------------------------------------------
 
   '%s added %d participant(s): %s.' => '%s 加入了 %d 位参与者: %s。',
@@ -4045,7 +4045,7 @@ Disable this setting to continue.' => NULL,
   'room participants' => '会议室参与者',
 
   // ---------------------------------------------------------------------------
-  //                                   Console                                  
+  //                                   Console
   // ---------------------------------------------------------------------------
 
   '(Masked)' => NULL,
@@ -4098,7 +4098,7 @@ Disable this setting to continue.' => NULL,
   'XHProf Profiler' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                  Countdown                                 
+  //                                  Countdown
   // ---------------------------------------------------------------------------
 
   '%s updated the countdown description for %s.' => NULL,
@@ -4159,7 +4159,7 @@ Disable this setting to continue.' => NULL,
   'You must give the countdown an end date.' => '您必须给倒数一个结束日期。',
 
   // ---------------------------------------------------------------------------
-  //                                   Daemon                                   
+  //                                   Daemon
   // ---------------------------------------------------------------------------
 
   '%s ago (%s)' => '%s 前',
@@ -4319,8 +4319,8 @@ Stop these processes by re-running this command with the %s parameter.' => NULL,
   'View Full Logs' => NULL,
   'View Task' => '检视工作',
   'Waiting For Confirmation' => NULL,
-  'You are trying to run a daemon as a nonstandard user, and `%s` was not able to `%s` to the correct user. 
-Phabricator is configured to run daemons as "%s", but the current user is "%s". 
+  'You are trying to run a daemon as a nonstandard user, and `%s` was not able to `%s` to the correct user.
+Phabricator is configured to run daemons as "%s", but the current user is "%s".
 Use `%s` to run as a different user, pass `%s` to ignore this warning, or edit `%s` to change the configuration.' => NULL,
   'You can not specify conflicting options %s and %s together.' => NULL,
   'You must launch at least one daemon.' => NULL,
@@ -4334,7 +4334,7 @@ You can use \'%s\' to stop all daemons before starting new daemons.
 You can force daemons to start anyway with %s.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                  Dashboard                                 
+  //                                  Dashboard
   // ---------------------------------------------------------------------------
 
   '%s activated dashboard %s.' => '%s 启用了资讯看板 %s。',
@@ -4433,7 +4433,7 @@ You can force daemons to start anyway with %s.' => NULL,
   'Edit Panel: %s' => '编辑面板: %s',
   'Flag' => NULL,
   'Global Dashboard' => '全域资讯看板',
-  'Home Menu' => '首页选单',
+  'Home Menu' => '首页菜单',
   'Install Dashboard' => '安装资讯看板',
   'Instead, add a new panel.' => NULL,
   'Kaboom' => NULL,
@@ -4442,7 +4442,7 @@ You can force daemons to start anyway with %s.' => NULL,
   'Leave this blank for the default number of items.' => '此栏留空代表使用预设的项目数量。',
   'Manage Dashboard' => '管理资讯看板',
   'Manage Panels' => '管理面板',
-  'Menu Label' => '选单标籤',
+  'Menu Label' => '菜单标籤',
   'Metallica' => NULL,
   'Missing or Restricted Panel' => '缺少或受限制的面板',
   'Name of the panel.' => '面板名称。',
@@ -4464,8 +4464,8 @@ You can force daemons to start anyway with %s.' => NULL,
   'Panel name is required.' => NULL,
   'Panels' => '面板',
   'Personal Dashboard' => '个人资讯看板',
-  'Places this dashboard as a menu item on home as a global menu item. It will be available to all users.' => '将这个资讯看板当做选单项目放在首页来做为个人选单项目，这会让所有使用者可用这个资讯看板。',
-  'Places this dashboard as a menu item on home as a personal menu item. It will only be on your personal home.' => '将这个资讯看板当做选单项目放在首页来做为个人选单项目，这只会出现在您个人的首页。',
+  'Places this dashboard as a menu item on home as a global menu item. It will be available to all users.' => '将这个资讯看板当做菜单项目放在首页来做为个人菜单项目，这会让所有使用者可用这个资讯看板。',
+  'Places this dashboard as a menu item on home as a personal menu item. It will only be on your personal home.' => '将这个资讯看板当做菜单项目放在首页来做为个人菜单项目，这只会出现在您个人的首页。',
   'Plastic Debt' => NULL,
   'Please select a valid dashboard.' => NULL,
   'Query "%s" is unknown to application search engine "%s"!' => NULL,
@@ -4505,12 +4505,12 @@ To install this dashboard on the home page, edit your personal or global menu on
 
 您可以拖曳、移除、加入与编辑面板来自订此资讯看板的其馀部份来呈现您想要的资讯。
 
-要首页安装此资讯看板，可编辑您在首页的个人或全域选单，然后点选右方新增选单项目中的资讯看板。',
+要首页安装此资讯看板，可编辑您在首页的个人或全域菜单，然后点选右方新增菜单项目中的资讯看板。',
   'This panel does not appear on any dashboards.' => '此面板未显示于任何资讯看板上。',
   'This panel does not exist, or you do not have permission to see it.' => '此面板并不存在，或者您没有权限检视此面板。',
   'This panel has type "%s", but that panel type is not known to Phabricator.' => NULL,
   'This panel will be archived and no longer appear in lists of active panels.' => '此面板将被封存且不会再显示于使用中的面板清单当中。',
-  'This panel will be reactivated and appear in other interfaces as an active panel.' => '此面板将会重新启用且会显示做为使用中的面板显示于其他介面上。',
+  'This panel will be reactivated and appear in other interfaces as an active panel.' => '此面板将会重新启用且会显示做为使用中的面板显示于其他界面上。',
   'To Self' => NULL,
   'To create a new dashboard panel, you must select a panel type.' => NULL,
   'To render more than %s levels of panels nested inside other panels, purchase a subscription to Phabricator Gold.' => NULL,
@@ -4540,7 +4540,7 @@ To install this dashboard on the home page, edit your personal or global menu on
   'template' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                Differential                                
+  //                                Differential
   // ---------------------------------------------------------------------------
 
   '%s (Diff %d)' => NULL,
@@ -4693,7 +4693,7 @@ To install this dashboard on the home page, edit your personal or global menu on
   'Allows any user to abandon revisions.' => NULL,
   'Allows any user to close accepted revisions.' => NULL,
   'Allows any user to reopen a closed revision.' => NULL,
-  'Allows commits to trigger audits explicitly.' => '允许指定要触发稽查的提交。',
+  'Allows commits to trigger audits explicitly.' => '允许指定要触发审查的提交。',
   'Allows users to accept their own revisions.' => NULL,
   'Apply transactions to create or update a revision.' => NULL,
   'Asana Task Deleted' => '已删除 Asana 工作',
@@ -4723,7 +4723,7 @@ To install this dashboard on the home page, edit your personal or global menu on
   'Browse Blocking Reviewers' => NULL,
   'Browse Responsible Users' => '浏览负责的使用者',
   'Browse Reviewers' => '浏览审查员',
-  'Browse in Diffusion' => '在 Diffusion 浏览',
+  'Browse in Diffusion' => '在 代码管理中 浏览',
   'Bucket by Required Action' => '依需要的操作分类',
   'CHANGE DETAILS' => '变更明细',
   'CHANGED PRIOR TO COMMIT' => NULL,
@@ -4811,7 +4811,7 @@ Reason: %s' => NULL,
   'Diff is already attached to another revision. You lost a race?' => NULL,
   'Diff not found.' => NULL,
   'Diff was not found.' => NULL,
-  'Differential' => NULL,
+  'Differential' => '文档对比',
   'Differential Diff' => NULL,
   'Differential Diffs' => 'Differential Diff',
   'Differential Parse Cache' => 'Differential Parse 快取',
@@ -5196,7 +5196,7 @@ NOTE: 此功能正在开发中并计划要做更动。',
   'This file was moved from %s.' => '已自 %s 移动此档桉。',
   'This file was moved to %s.' => '已移动此档桉到 %s。',
   'This file was not modified.' => '此档桉未被修改。',
-  'This function allows you to add a reviewer as a blocking reviewer. For example, this will add `%s` as a blocking reviewer: 
+  'This function allows you to add a reviewer as a blocking reviewer. For example, this will add `%s` as a blocking reviewer:
 
 %s
 
@@ -5293,7 +5293,7 @@ NOTE: 此功能正在开发中并计划要做更动。',
   'View Revision' => '检视修订',
   'View Side-by-Side' => '併排检视',
   'View Standalone' => '独立检视',
-  'View Unified' => '合併检视',
+  'View Unified' => '合并检视',
   'Waiting on Authors' => '等候作者',
   'Waiting on Other Reviewers' => '等候其他审查员',
   'Waiting on Review' => '等候审查',
@@ -5365,7 +5365,7 @@ NOTE: 此功能正在开发中并计划要做更动。',
   '▲ Show %d Line(s)' => '▲ 显示 %d 行',
 
   // ---------------------------------------------------------------------------
-  //                                  Diffusion                                 
+  //                                  Diffusion
   // ---------------------------------------------------------------------------
 
   '  - Configure [[ %s | %s ]] to change the SSH username.
@@ -5382,10 +5382,10 @@ NOTE: 此功能正在开发中并计划要做更动。',
 ' => NULL,
   '# Ready to receive on cluster host "%s".
 ' => NULL,
-  '%s Audit' => '%s 稽查',
+  '%s Audit' => '%s 审查',
   '%s Complete' => '%s 完成',
-  '%s added %s auditor(s) for %s: %s.' => '%s 加入了 %d 位稽查员于 %s: %s。',
-  '%s added %s auditor(s): %s.' => '%s 加入了 %d 位稽查员: %s。',
+  '%s added %s auditor(s) for %s: %s.' => '%s 加入了 %d 位审查员于 %s: %s。',
+  '%s added %s auditor(s): %s.' => '%s 加入了 %d 位审查员: %s。',
   '%s added %s reverted commit(s) for %s: %s.' => '%s 加入了 %s 已还原的提交于 %s: %s。',
   '%s added %s reverted commit(s): %s.' => '%s 加入了 %s 已还原的提交: %s。',
   '%s added %s reverting commit(s) for %s: %s.' => '%s 加入了 %s 还原中的提交于 %s: %s。',
@@ -5427,15 +5427,15 @@ NOTE: 此功能正在开发中并计划要做更动。',
   'Active or inactive status.' => NULL,
   'Active status of the URI.' => NULL,
   'Add New URI' => '加入新 URI',
-  'Add auditors' => '加入稽查员',
-  'Add auditors: %s.' => '加入稽查员: %s。',
-  'Add me as an auditor' => '加入我为稽查员',
+  'Add auditors' => '加入审查员',
+  'Add auditors: %s.' => '加入审查员: %s。',
+  'Add me as an auditor' => '加入我为审查员',
   'Add rule author as auditor.' => NULL,
-  'Added %s auditor(s): %s.' => '已加入 %s 位稽查员: %s。',
+  'Added %s auditor(s): %s.' => '已加入 %s 位审查员: %s。',
   'Added diff content' => NULL,
   'Adjust I/O behavior.' => NULL,
   'Advises Phabricator to look for new commits in a repository as soon as possible. This advice is most useful if you have just pushed new commits to that repository.' => NULL,
-  'Affected packages that need audit' => '影响到需要稽查的套件',
+  'Affected packages that need audit' => '影响到需要审查的套件',
   'Against' => NULL,
   'All Lint' => '所有 Lint',
   'All Pushed Updates' => '所有已 Push 更新',
@@ -5452,8 +5452,8 @@ NOTE: 此功能正在开发中并计划要做更动。',
   'Apply transactions to edit an existing commit. This method can not create new commits.' => NULL,
   'Attempting to build a reposiory command (for repository "%s") as device, but this host ("%s") is not configured as a cluster device.' => NULL,
   'Attempting to build a repository command (for repository "%s"), but the CommandEngine is configured to connect as both the current cluster device ("%s") and with a specific credential ("%s"). These options are mutually exclusive. Connections must authenticate as one or the other, not both.' => NULL,
-  'Audit Actions' => '稽查动作',
-  'Audit User Guide' => '稽查使用指南',
+  'Audit Actions' => '审查动作',
+  'Audit User Guide' => '审查使用指南',
   'Auditor "%s" is not a valid object.' => NULL,
   'Auditor "%s" must be a user, a package, or a project.' => NULL,
   'Auditors for this commit.' => NULL,
@@ -5483,7 +5483,7 @@ NOTE: 此功能正在开发中并计划要做更动。',
   'Branch comparison is not supported for this version control system.' => NULL,
   'Branches' => '分支',
   'Browse' => '浏览',
-  'Browse Auditors' => '浏览稽查员',
+  'Browse Auditors' => '浏览审查员',
   'Browse Branches' => '浏览分支',
   'Browse Commits' => '浏览提交',
   'Browse Content' => '浏览内容',
@@ -5500,7 +5500,7 @@ NOTE: 此功能正在开发中并计划要做更动。',
   'Callsign' => '代号',
   'Can Create Repositories' => '可建立档桉库',
   'Can Push' => NULL,
-  'Change Auditors' => '更改稽查员',
+  'Change Auditors' => '更改审查员',
   'Change autoclose setting.' => '更改 autoclose 设定。',
   'Change automation blueprints.' => '更改 automation 蓝图。',
   'Change display behavior.' => '更改显示方式。',
@@ -5508,7 +5508,7 @@ NOTE: 此功能正在开发中并计划要做更动。',
   'Change publishing options.' => '更改发佈选项。',
   'Change symbol languages for this repository.' => '更改此档桉库的符号语言。',
   'Change symbol source repositories.' => NULL,
-  'Change the auditors for this commit.' => '更改此提交的稽查员。',
+  'Change the auditors for this commit.' => '更改此提交的审查员。',
   'Change the credential for this URI.' => '更改此 URI 的凭証。',
   'Change the default text encoding.' => '更改预设文字编码。',
   'Change the push policy of the repository.' => '更改该档桉库的 Push 政策。',
@@ -5526,7 +5526,7 @@ NOTE: 此功能正在开发中并计划要做更动。',
   'Client closed connection before sending a complete protocol frame.' => NULL,
   'Client transmitted more than 1MB of data without transmitting a recognizable protocol frame.' => NULL,
   'Clone' => NULL,
-  'Cluster Status' => '丛集状态',
+  'Cluster Status' => '集群状态',
   'Code' => '程式码',
   'Commit "%s" is not a valid commit in this repository.' => NULL,
   'Commit Actions' => '提交动作',
@@ -5698,11 +5698,11 @@ Edit the repository configuration before making dangerous changes.' => NULL,
   'Git LFS operation "%s" is not supported by this server.' => NULL,
   'Git Large File Storage' => NULL,
   'Grep File Content' => NULL,
-  'Group Auditors' => '稽查群组',
+  'Group Auditors' => '审查群组',
   'Hard byte limit on including patches in email.' => NULL,
   'Hard time limit on generating patches.' => NULL,
   'Hash' => NULL,
-  'Having trouble coming up with a good password? Try this artisanal password, hand made in small batches by our expert craftspeople: 
+  'Having trouble coming up with a good password? Try this artisanal password, hand made in small batches by our expert craftspeople:
 
 `%s`' => NULL,
   'Having trouble coming up with a good password? Try this randomly generated one, made by a computer:
@@ -5747,7 +5747,7 @@ Edit the repository configuration before making dangerous changes.' => NULL,
   'Invalid path ID!' => NULL,
   'Invalid path URI.' => NULL,
   'Invalid state \'%s\'!' => NULL,
-  'Is merge commit' => '是合併提交',
+  'Is merge commit' => '是合并提交',
   'Issue #123' => NULL,
   'Issue #123, #456' => NULL,
   'It will no longer be possible to delete branches from this repository, or %s push to this repository.' => NULL,
@@ -5775,7 +5775,7 @@ Edit the repository configuration before making dangerous changes.' => NULL,
   'Manage SSH Keys' => '管理 SSH 金钥',
   'Manual at php.net' => '于 php.net 的手册',
   'Mercurial repository has no new or old heads for branch "%s" after push. This makes no sense; rejecting change.' => NULL,
-  'Merged Changes' => '已合併变更',
+  'Merged Changes' => '已合并变更',
   'Merged commit information for a specific commit in a repository.' => NULL,
   'Message is not attached!' => NULL,
   'Missing Binary %s' => NULL,
@@ -5823,7 +5823,7 @@ Edit the repository configuration before making dangerous changes.' => NULL,
   'No commit exists with identifier "%s".' => NULL,
   'No commit identifiers.' => NULL,
   'No commits are awaiting your verification.' => '没有等候您检验的提交。',
-  'No commits are waiting for you to audit them.' => '没有等候您稽查的提交。',
+  'No commits are waiting for you to audit them.' => '没有等候您审查的提交。',
   'No description provided.' => '未填写描述。',
   'No extra messages for \'%s\'.' => NULL,
   'No matching symbol could be found in any indexed repository.' => NULL,
@@ -5834,10 +5834,10 @@ Edit the repository configuration before making dangerous changes.' => NULL,
   'No, Autoclose Disabled' => NULL,
   'No, Not On Autoclose Branch' => NULL,
   'No, Repository Importing' => NULL,
-  'None of your audits are waiting on authors.' => '您没有正在等候作者的稽查。',
-  'None of your commits are waiting on audit.' => '您没有正在等候稽查的提交。',
+  'None of your audits are waiting on authors.' => '您没有正在等候作者的审查。',
+  'None of your commits are waiting on audit.' => '您没有正在等候审查的提交。',
   'None of your commits have active concerns.' => '您没有被提出顾虑的提交。',
-  'Normally, Phabricator automatically updates repositories based on how much time has elapsed since the last commit. This helps reduce load if you have a large number of mostly inactive repositories, which is common.' => '正常 Phabricator 会根据最后一次提交经过的时间来决定是否更新档桉库，在您平时就有大量不常使用的档桉库时，这样的机制可以减少伺服器的负载。',
+  'Normally, Phabricator automatically updates repositories based on how much time has elapsed since the last commit. This helps reduce load if you have a large number of mostly inactive repositories, which is common.' => '正常 Phabricator 会根据最后一次提交经过的时间来决定是否更新档桉库，在您平时就有大量不常使用的档桉库时，这样的机制可以减少服务器的负载。',
   'Not Allowed' => '不允许',
   'Not Configured' => '尚未设定',
   'Not Covered' => '尚未涵盖',
@@ -5948,12 +5948,12 @@ Hook rules can block changes and send push summary mail.' => '提交被推送到
 Hook 规则可以阻挡变更并发送推送摘要的邮件。',
   'React to new commits appearing in tracked repositories.
 Commit rules can send email, flag commits, trigger audits, and run build plans.' => '新的提交出现在追踪的档桉库时触发。
-提交规则可以用来发送邮件、标记提交、触发稽查以及执行建置计划。',
+提交规则可以用来发送邮件、标记提交、触发审查以及执行建置计划。',
   'Read / Write' => '读 / 写',
   'Read information about commits.' => NULL,
   'Read information about repositories.' => NULL,
   'Read-Only' => '唯读',
-  'Ready to Audit' => '准备稽查',
+  'Ready to Audit' => '准备审查',
   'Really want to delete the repository?' => NULL,
   'Recently Open Revisions' => NULL,
   'Ref' => NULL,
@@ -6001,7 +6001,7 @@ Commit rules can send email, flag commits, trigger audits, and run build plans.'
   'Repository projects' => '档桉库专桉',
   'Request Verification' => '请求验証',
   'Requested Verification' => '已请求验証',
-  'Resign as Auditor' => '放弃做为稽查员',
+  'Resign as Auditor' => '放弃做为审查员',
   'Resolve references into stable, canonical identifiers.' => NULL,
   'Retrieve Diffusion symbol information.' => NULL,
   'Retrieve file content from a repository.' => NULL,
@@ -6053,7 +6053,7 @@ Commit rules can send email, flag commits, trigger audits, and run build plans.'
   'Still Importing...' => '尚在汇入中...',
   'Stop or resume autoclosing in this repository.' => NULL,
   'Storage' => '储存方式',
-  'Storage Cluster' => '储存丛集',
+  'Storage Cluster' => '储存集群',
   'Storage Directory OK' => '储存目录良好',
   'Storage Path' => '储存路径',
   'Storage directory %s does not exist, or is not readable by the webserver. Create this directory or make it readable.' => NULL,
@@ -6128,7 +6128,7 @@ Commit rules can send email, flag commits, trigger audits, and run build plans.'
   'This commit no longer exists in the repository. It may have been part of a branch which was deleted.' => NULL,
   'This commit no longer requires audit.' => NULL,
   'This commit now has outstanding concerns.' => '此提交现在有明显的顾虑。',
-  'This commit now requires audit.' => '此提交现在需要稽查。',
+  'This commit now requires audit.' => '此提交现在需要审查。',
   'This commit now requires verification by auditors.' => NULL,
   'This commit was rewritten after it was published, which changed the commit hash. This old version of the commit is no longer reachable from any branch, tag or ref. The new version of this commit is %s.' => NULL,
   'This commit will be approved.' => '此提交将会被核准。',
@@ -6148,7 +6148,7 @@ Commit rules can send email, flag commits, trigger audits, and run build plans.'
   'This install is configured in cluster mode, but all available repository cluster services are closed to new allocations. At least one service must be open to allow new allocations to take place.' => NULL,
   'This is a binary file. It is %s byte(s) in length.' => '这是一个二进位档，它的大小为 %s 位元组。',
   'This is not a Git LFS request!' => NULL,
-  'This is not a cluster repository.' => '此非丛集档桉库。',
+  'This is not a cluster repository.' => '此非集群档桉库。',
   'This newly created repository is not active yet. Configure policies, options, and URIs. When ready, %s the repository.' => '这个新建立的档桉库尚未启用，请设定原则、选项以及 URI，当准备好时 %s 档桉库。',
   'This page documents the commands you can use to interact with commits and audits in Diffusion.' => NULL,
   'This password is extremely weak: it is one of the most common passwords in use. Choose a stronger password.' => NULL,
@@ -6292,7 +6292,7 @@ IMPORTANT: This feature is new, experimental, and not supported. Use it at your 
   'Waiting For Update' => '正在等候更新',
   'Waiting for daemons to build a working copy.' => '等候 Daemon 建立工作複本。',
   'Waiting for daemons to read updates.' => '等候 Daemon 读取更新。',
-  'Waiting on Auditors' => '等候稽查员',
+  'Waiting on Auditors' => '等候审查员',
   'Waiting up to %s second(s) for a cluster read lock on "%s"...' => NULL,
   'Waiting up to %s second(s) for a cluster write lock...' => NULL,
   'When constructing clone URIs to show to users, Diffusion by default will not display a port assuming the default for your VCS. Explicitly declare when running on a non-standard port.' => NULL,
@@ -6340,7 +6340,7 @@ IMPORTANT: This feature is new, experimental, and not supported. Use it at your 
   'You must provide a %s in the dictionary!' => NULL,
   'You must provide two different commits to compare.' => '您必须提供两个不同的提交来比较。',
   'You must set a name or a name prefix!' => NULL,
-  'You will resign as an auditor for this commit.' => '您将会放弃作为此提交的稽查员。',
+  'You will resign as an auditor for this commit.' => '您将会放弃作为此提交的审查员。',
   'Your VCS password has been updated.' => NULL,
   'Your VCS password is currently hashed using an algorithm which is no longer available on this install.' => NULL,
   'bookmark (hg)' => NULL,
@@ -6349,7 +6349,7 @@ IMPORTANT: This feature is new, experimental, and not supported. Use it at your 
   'tag (git)' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Diviner                                  
+  //                                   Diviner
   // ---------------------------------------------------------------------------
 
   '(NOTE) **Looking for Phabricator documentation?** If you\'re looking for help and information about Phabricator, you can [[https://secure.phabricator.com/diviner/ | browse the public Phabricator documentation]] on the live site.
@@ -6463,7 +6463,7 @@ You haven\'t generated any Diviner documentation books yet, so there\'s nothing 
   'Writing graph cache.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                 Doorkeeper                                 
+  //                                 Doorkeeper
   // ---------------------------------------------------------------------------
 
   '%s <%s>' => NULL,
@@ -6536,7 +6536,7 @@ NOTE: This feature is new and experimental.' => NULL,
 ☠ Your changes will be destroyed the next time state is synchronized.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Drydock                                  
+  //                                   Drydock
   // ---------------------------------------------------------------------------
 
   '"%s" (owned by "%s")' => '"%s" (归 "%s" 所有)',
@@ -6869,7 +6869,7 @@ NOTE: This feature is new and experimental.' => NULL,
   'autocommitter' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                    Fact                                    
+  //                                    Fact
   // ---------------------------------------------------------------------------
 
   'Analyze from the beginning, ignoring cursors.' => NULL,
@@ -6909,7 +6909,7 @@ NOTE: This feature is new and experimental.' => NULL,
   'Zzz...' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                  Favorites                                 
+  //                                  Favorites
   // ---------------------------------------------------------------------------
 
   'Edit Favorites' => '编辑我的最爱',
@@ -6917,7 +6917,7 @@ NOTE: This feature is new and experimental.' => NULL,
   'Favorites' => '我的最爱',
 
   // ---------------------------------------------------------------------------
-  //                                    Feed                                    
+  //                                    Feed
   // ---------------------------------------------------------------------------
 
   '(Unable to render story of class %s for Doorkeeper.)' => NULL,
@@ -6961,7 +6961,7 @@ NOTE: URIs are not validated, the URI must return HTTP status 200 within 30 seco
   'You must call %s if you %s!' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                    Files                                   
+  //                                    Files
   // ---------------------------------------------------------------------------
 
   '%s Transforms' => '%s 变型',
@@ -7420,7 +7420,7 @@ The keys in this map are viewable MIME types; the values are the MIME types they
   'You\'re It' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                    Flag                                    
+  //                                    Flag
   // ---------------------------------------------------------------------------
 
   'All Object Types' => '所有物件类型',
@@ -7451,7 +7451,7 @@ The keys in this map are viewable MIME types; the values are the MIME types they
   'You can flag this %s if you want to remember to look at it later.' => '若您想要记住稍后再回来查看您可以旗标此 %s。',
 
   // ---------------------------------------------------------------------------
-  //                                    Fund                                    
+  //                                    Fund
   // ---------------------------------------------------------------------------
 
   '%s backed %s with %s.' => NULL,
@@ -7527,7 +7527,7 @@ The keys in this map are viewable MIME types; the values are the MIME types they
   'You must specify how much money you want to contribute to the initiative.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Guides                                   
+  //                                   Guides
   // ---------------------------------------------------------------------------
 
   'Authentication providers allow users to register accounts and log in to Phabricator.' => '认証提供者可让使用者注册帐号并登入 Phabricator。',
@@ -7547,7 +7547,7 @@ The keys in this map are viewable MIME types; the values are the MIME types they
   'It looks amazing, good work. Home Sweet Home.' => NULL,
   'Learn how to configure mail and other options in Phabricator.' => '了解如何在 Phabricator 设定邮件及其他选项。',
   'Login and Registration' => '登入与注册',
-  'Notification Server' => '通知伺服器',
+  'Notification Server' => '通知服务器',
   'Personalize your Install' => '个人化您的安装',
   'Phabricator can deliver notifications in real-time with WebSockets.' => 'Phabricator 可以使用 WebSockets 即时发送通知。',
   'Phabricator has been successfully installed. These next guides will take you through configuration and new user orientation. These steps are optional, and you can go through them in any order. If you want to get back to this guide later on, you can find it in {icon globe} **Applications** under {icon map-o} **Guides**.' => 'Phabricator 已经成功安装，接下的几个步骤会带领您设定与使用，这几个步骤均为选择性的，您可以用任何顺序完成。若您想要在稍后返回这个指南，您可以在 {icon globe} **应用程式** 中的 {icon map-o} **指南** 找到。',
@@ -7562,17 +7562,17 @@ The keys in this map are viewable MIME types; the values are the MIME types they
   'You have some unresolved setup issues to take care of.' => '您有一些尚未解决的安装问题需要注意。',
   'You\'ve adjusted at least one setting on your account.' => '您已调整了您的帐号中至少一项设定。',
   'You\'ve configured at least one authentication provider.' => '您已设定了至少一个认証提供者。',
-  'You\'ve configured at least one setting from the web interface.' => '您已从网页介面设定了至少一项设定。',
+  'You\'ve configured at least one setting from the web interface.' => '您已从网页界面设定了至少一项设定。',
   'You\'ve created at least one dashboard.' => '您已建立了至少一个资讯看板。',
   'You\'ve created at least one project.' => '您已建立了至少一个专桉。',
   'You\'ve created at least one repository.' => '您已建立了至少一个档桉库。',
   'You\'ve created at least one task.' => '您已建立了至少一个工作。',
   'You\'ve resolved (or ignored) all outstanding setup issues.' => '您已解决了 (或忽略了) 所有重要的安装问题。',
-  'You\'ve set up a real-time notification server.' => '您已设定即时通知伺服器。',
+  'You\'ve set up a real-time notification server.' => '您已设定即时通知服务器。',
   'Your invitations have been accepted. You will not be alone on this journey.' => '您的邀请被接受之后，这段旅程将不再是只有你一人。',
 
   // ---------------------------------------------------------------------------
-  //                                Harbormaster                                
+  //                                Harbormaster
   // ---------------------------------------------------------------------------
 
   '%s Broken Test(s)' => NULL,
@@ -8135,7 +8135,7 @@ With `ui.external`, you can use this artifact type to add links to build results
   100 => '100 分',
 
   // ---------------------------------------------------------------------------
-  //                                    Help                                    
+  //                                    Help
   // ---------------------------------------------------------------------------
 
   '%s Help' => '%s 说明',
@@ -8146,7 +8146,7 @@ With `ui.external`, you can use this artifact type to add links to build results
   'Your configured editor URI uses an unsupported protocol. Change your settings to use a supported protocol, or ask your administrator to add support for the chosen protocol by configuring: %s' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Herald                                   
+  //                                   Herald
   // ---------------------------------------------------------------------------
 
   '%s %s %s' => NULL,
@@ -8386,7 +8386,7 @@ With `ui.external`, you can use this artifact type to add links to build results
   'only the first time' => '只有第一次',
 
   // ---------------------------------------------------------------------------
-  //                                    Home                                    
+  //                                    Home
   // ---------------------------------------------------------------------------
 
   'Built-in Homepage' => '内建首页',
@@ -8394,7 +8394,7 @@ With `ui.external`, you can use this artifact type to add links to build results
   'More Applications' => '更多应用',
 
   // ---------------------------------------------------------------------------
-  //                               Infrastructure                               
+  //                               Infrastructure
   // ---------------------------------------------------------------------------
 
   '%s \'%s\' has a patch \'%s\' which duplicates an existing patch key.' => NULL,
@@ -9049,7 +9049,7 @@ For more information, see "Managing Storage Adjustments" in the documentation.' 
   '· · ·' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                  Legalpad                                  
+  //                                  Legalpad
   // ---------------------------------------------------------------------------
 
   '%s added %s required legal document(s) to %s: %s.' => NULL,
@@ -9206,7 +9206,7 @@ You can review the document here:
   'signers of legalpad documents' => 'Legalpad 文件的签署人',
 
   // ---------------------------------------------------------------------------
-  //                                   Lipsum                                   
+  //                                   Lipsum
   // ---------------------------------------------------------------------------
 
   'A lipsum generator is registered with key "%s". This key is reserved.' => NULL,
@@ -9231,7 +9231,7 @@ You can review the document here:
   'lipsum is a development and testing tool and may only be run on installs in developer mode. Enable "%s" in your configuration to enable lipsum.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                    Macro                                   
+  //                                    Macro
   // ---------------------------------------------------------------------------
 
   '%s attached audio to %s: %s.' => NULL,
@@ -9334,7 +9334,7 @@ You can review the document here:
   'You must upload audio.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                  Maniphest                                 
+  //                                  Maniphest
   // ---------------------------------------------------------------------------
 
   '%s added %s commit(s) to %s: %s.' => '%s 加入了 %s 笔提交到 %s: %s。',
@@ -9507,14 +9507,14 @@ You can choose which priority is the default for newly created tasks with `%s`.'
   'Choose a default priority for newly created tasks. You can review and adjust available priorities by using the %s configuration option. The default value (`90`) corresponds to the default "Needs Triage" priority.' => NULL,
   'Claimed' => NULL,
   'Clear Selection' => '清除选择',
-  'Close As Duplicate' => '做为重複关闭',
-  'Close This Task As a Duplicate Of' => '做为以下的重複关闭此工作',
+  'Close As Duplicate' => '做为重复关闭',
+  'Close This Task As a Duplicate Of' => '做为以下的重复关闭此工作',
   'Close a task. This changes the task status to the default closed status. For a more powerful (but less concise) way to change task statuses, see `%s`.' => NULL,
-  'Close and Merge Selected Tasks' => '关闭并合併选择的工作',
+  'Close and Merge Selected Tasks' => '关闭并合并选择的工作',
   'Closed Default' => NULL,
   'Closed Status' => '已完成状态',
   'Closed after %s' => '在 %s 之后完成的工作',
-  'Closed, Duplicate' => '已完成、重複回报',
+  'Closed, Duplicate' => '已完成、重复回报',
   'Closed, Spite' => '已完成、不予处理',
   'Closed, Wontfix' => '已完成、无须修正',
   'Column move transaction moves object to multiple positions. Specify only "beforePHID" or "afterPHID", not both.' => NULL,
@@ -9587,7 +9587,7 @@ You can choose which priority is the default for newly created tasks with `%s`.'
   'Hours Config' => NULL,
   'Information about task priority.' => NULL,
   'Information about task status.' => NULL,
-  'Interacting with Maniphest Tasks' => '与 Maniphest 工作互动',
+  'Interacting with Maniphest Tasks' => '与 问题管理 工作互动',
   'Invalid Key' => NULL,
   'Key "%s" is not a valid priority constant. Priority constants must be nonnegative integers.' => NULL,
   'Key "%s" is not a valid status constant. Status constants must be 1-12 characters long and contain only lowercase letters (a-z) and digits (0-9). For example, "%s" or "%s" are reasonable choices.' => NULL,
@@ -9597,17 +9597,17 @@ You can choose which priority is the default for newly created tasks with `%s`.'
   'List of task PHIDs, as array.' => NULL,
   'List of task monograms, as array.' => NULL,
   'Lowered Priority' => NULL,
-  'Maniphest' => NULL,
+  'Maniphest' => '问题管理',
   'Maniphest Bulk Edit' => NULL,
-  'Maniphest Project Name Cache' => 'Maniphest 专桉名称快取',
+  'Maniphest Project Name Cache' => '问题管理 专桉名称快取',
   'Maniphest Reports' => NULL,
-  'Maniphest Task' => 'Maniphest 工作',
+  'Maniphest Task' => '问题管理 工作',
   'Mentioned Here' => NULL,
   'Mentioned In' => NULL,
   'Mentions' => NULL,
-  'Merge Duplicates In' => '合併重複工作',
-  'Merge Duplicates Into This Task' => '合併重複工作至这个工作',
-  'Merge Into Selected Task' => '合併至选择的工作',
+  'Merge Duplicates In' => '合并重复工作',
+  'Merge Duplicates Into This Task' => '合并重复工作至这个工作',
+  'Merge Into Selected Task' => '合并至选择的工作',
   'Merged' => NULL,
   'Minimal Valid Config' => '最短有效设定',
   'Missing Special' => NULL,
@@ -9733,7 +9733,7 @@ You can choose which priority is the default for newly created tasks with `%s`.'
   'Task title is required.' => '工作标题是必填栏位。',
   'Task to make this a subtask of.' => '将此工作设为选择工作的子工作。',
   'Tasks and Bugs' => '工作与问题',
-  'Tasks to Close and Merge' => '要关闭并合併的工作',
+  'Tasks to Close and Merge' => '要关闭并合并的工作',
   'Test rules which run when a task is created or updated.' => NULL,
   'The author of this task can take this action.' => NULL,
   'The owner of a task can always view and edit it.' => NULL,
@@ -9824,7 +9824,7 @@ To quickly close a task, see `%s`.' => NULL,
   '● %s' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                    Meta                                    
+  //                                    Meta
   // ---------------------------------------------------------------------------
 
   '(Prototype)' => '(雏形)',
@@ -9901,7 +9901,7 @@ I just talked to @alincoln, and he showed me that he fixed this.
   'You cannot install an installed application.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Metamta                                  
+  //                                   Metamta
   // ---------------------------------------------------------------------------
 
   '"Delivered" shows email actually sent.' => NULL,
@@ -10173,7 +10173,7 @@ Accepting receivers: %s.' => NULL,
   'Your message does not contain any body text or attachments, so Phabricator can not do anything useful with it. Make sure comment text appears at the top of your message: quoted replies, inline text, and signatures are discarded and ignored.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                 Multimeter                                 
+  //                                 Multimeter
   // ---------------------------------------------------------------------------
 
   '%s Event(s)' => '%s 事件',
@@ -10202,7 +10202,7 @@ Accepting receivers: %s.' => NULL,
   'Web Request' => '网站请求',
 
   // ---------------------------------------------------------------------------
-  //                                Notification                                
+  //                                Notification
   // ---------------------------------------------------------------------------
 
   '(To start the server, run this command.)
@@ -10224,7 +10224,7 @@ Accepting receivers: %s.' => NULL,
   'Notification server configuration is invalid: it does not specify any enabled servers with type "client". Notifications require at least one active "client" server.' => NULL,
   'Notification server configuration is not valid: each entry in the list must be a dictionary describing a service, but the value with index "%s" is not a dictionary.' => NULL,
   'Notification server configuration is not valid: value must be a list of servers' => NULL,
-  'Notification server not enabled' => '未开启通知伺服器',
+  'Notification server not enabled' => '未开启通知服务器',
   'Phabricator is configured to use a notification server, but is unable to connect to it. You should resolve this issue or disable the notification server. It may be helpful to double check your configuration or restart the server using the command below.
 
 %s' => NULL,
@@ -10234,7 +10234,7 @@ Accepting receivers: %s.' => NULL,
   'Show only unread notifications.' => '只显示未读的通知。',
   'Test Notification' => '测试通知',
   'This is a test notification, sent at %s.' => '这是一则测试通知，传送于 %s。',
-  'Unable to Connect to Notification Server' => '无法连线通知伺服器',
+  'Unable to Connect to Notification Server' => '无法连线通知服务器',
   'Unable to load server status: this is not an admin server!' => NULL,
   'Unable to post message: this is not an admin server!' => NULL,
   'Unable to test client on an admin server!' => NULL,
@@ -10245,7 +10245,7 @@ Accepting receivers: %s.' => NULL,
   'You have no unread notifications.' => '您没有任何未读的通知。',
 
   // ---------------------------------------------------------------------------
-  //                                   Nuance                                   
+  //                                   Nuance
   // ---------------------------------------------------------------------------
 
   '%s applied command "%s" to this item.' => NULL,
@@ -10395,7 +10395,7 @@ Accepting receivers: %s.' => NULL,
   'You must choose a source type.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                 Oauthserver                                
+  //                                 Oauthserver
   // ---------------------------------------------------------------------------
 
   '%s changed the application redirect URI from "%s" to "%s".' => NULL,
@@ -10419,15 +10419,15 @@ Accepting receivers: %s.' => NULL,
   'Client PHID' => NULL,
   'Client with %s %s not found.' => NULL,
   'Continue to Application' => NULL,
-  'Create OAuth Server' => '建立 OAuth 伺服器',
+  'Create OAuth Server' => '建立 OAuth 服务器',
   'Disable Application' => NULL,
   'Disable OAuth Application' => '关闭 OAuth 应用程式',
   'Do Not Authorize' => NULL,
   'Do you want to authorize the external application "%s" to access your Phabricator account data, including your primary email address?' => NULL,
   'Edit Application' => '编辑应用程式',
   'Edit OAuth Applications' => '编辑 OAuth 应用程式',
-  'Edit OAuth Server' => '编辑 OAuth 伺服器',
-  'Edit OAuth Server: %s' => '编辑 OAuth 伺服器: %s',
+  'Edit OAuth Server' => '编辑 OAuth 服务器',
+  'Edit OAuth Server: %s' => '编辑 OAuth 服务器: %s',
   'Enable Application' => NULL,
   'Enable OAuth Application' => NULL,
   'Generate Test Token' => '产生测试 Token',
@@ -10452,7 +10452,7 @@ Accepting receivers: %s.' => NULL,
   'OAuth Error Code: %s' => NULL,
   'OAuth Login Provider' => 'OAuth 登入提供者',
   'OAuth Not Available' => NULL,
-  'OAuth Server' => 'OAuth 伺服器',
+  'OAuth Server' => 'OAuth 服务器',
   'OAuth application "%s" has been disabled.' => NULL,
   'OAuth application redirect URIs must not contain URI fragments, but the URI "%s" has a fragment ("%s").' => NULL,
   'OAuth application redirect URIs must only use the "http" or "https" protocols, but the URI "%s" uses the "%s" protocol.' => NULL,
@@ -10509,7 +10509,7 @@ Accepting receivers: %s.' => NULL,
   'You haven\'t authorized any OAuth applications.' => '您尚未授权任何 OAuth 应用程式。',
 
   // ---------------------------------------------------------------------------
-  //                                   Owners                                   
+  //                                   Owners
   // ---------------------------------------------------------------------------
 
   '%s activated this package.' => '%s 启用了这个套件。',
@@ -10518,8 +10518,8 @@ Accepting receivers: %s.' => NULL,
   '%s adjusted package dominion rules from %s to %s.' => NULL,
   '%s archived this package.' => '%s 封存了这个套件。',
   '%s changed %s package owner(s), added %s: %s; removed %s: %s.' => NULL,
-  '%s disabled auditing for this package.' => '%s 关闭了此套件的稽查。',
-  '%s enabled auditing for this package.' => '%s 开启了此套件的稽查。',
+  '%s disabled auditing for this package.' => '%s 关闭了此套件的审查。',
+  '%s enabled auditing for this package.' => '%s 开启了此套件的审查。',
   '%s removed %s owner(s): %s.' => NULL,
   '%s renamed this package from %s to %s.' => NULL,
   '%s updated paths for this package.' => '%s 更新了此套件的路径。',
@@ -10533,7 +10533,7 @@ Accepting receivers: %s.' => NULL,
   'Apply transactions to create a new Owners package or edit an existing one.' => NULL,
   'Archive Package' => '封存套件',
   'Archive or enable the package.' => NULL,
-  'Auditing' => '稽查',
+  'Auditing' => '审查',
   'Authority' => NULL,
   'Auto Review' => '自动审查',
   'Automatically trigger audits for commits affecting files in this package.' => NULL,
@@ -10634,7 +10634,7 @@ Accepting receivers: %s.' => NULL,
   'owner' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                  Packages                                  
+  //                                  Packages
   // ---------------------------------------------------------------------------
 
   '%s changed the name of this package from %s to %s.' => NULL,
@@ -10734,7 +10734,7 @@ Accepting receivers: %s.' => NULL,
   'You must select a publisher when creating a package.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                 Passphrase                                 
+  //                                 Passphrase
   // ---------------------------------------------------------------------------
 
   '%s (Restricted Credential)' => NULL,
@@ -10843,7 +10843,7 @@ Accepting receivers: %s.' => NULL,
   'credential author' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                    Paste                                   
+  //                                    Paste
   // ---------------------------------------------------------------------------
 
   '%s Line(s)' => '%s 行',
@@ -10937,7 +10937,7 @@ Accepting receivers: %s.' => NULL,
   'autodetect' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   People                                   
+  //                                   People
   // ---------------------------------------------------------------------------
 
   '"%s" User' => '"%s" 使用者',
@@ -11301,15 +11301,15 @@ After you have set a password, you can login in the future by going here:
   'users' => '使用者',
 
   // ---------------------------------------------------------------------------
-  //                                    Phame                                   
+  //                                    Phame
   // ---------------------------------------------------------------------------
 
-  '%s archived the blog %s.' => '%s 封存了网志 %s。',
-  '%s archived this blog.' => '%s 封存了这个网志。',
+  '%s archived the blog %s.' => '%s 封存了博客 %s。',
+  '%s archived this blog.' => '%s 封存了这个博客。',
   '%s archived this post.' => '%s 封存了这个文章。',
   '%s authored %s.' => NULL,
   '%s authored this post.' => NULL,
-  '%s created this blog.' => '%s 建立了这个网志。',
+  '%s created this blog.' => '%s 建立了这个博客。',
   '%s marked %s as a draft.' => NULL,
   '%s marked %s as archived.' => NULL,
   '%s marked this post as a draft.' => NULL,
@@ -11350,47 +11350,47 @@ After you have set a password, you can login in the future by going here:
   '%s updated this blog\'s header image from %s to %s.' => NULL,
   '%s updated this blog\'s profile image from %s to %s.' => NULL,
   '(Empty Post)' => NULL,
-  'A blog\'s details change.' => '网志的详细资讯变更。',
-  'A blog\'s subscribers change.' => '网志的订阅者变更。',
+  'A blog\'s details change.' => '博客的详细资讯变更。',
+  'A blog\'s subscribers change.' => '博客的订阅者变更。',
   'A post\'s content changes.' => '文章的内容变更。',
   'A post\'s subscribers change.' => '文章的订阅者变更。',
   'About %s' => NULL,
-  'Activate Blog' => '启用网志',
-  'Active Blogs' => '使用中的网志',
+  'Activate Blog' => '启用博客',
+  'Active Blogs' => '使用中的博客',
   'Active or archive the blog.' => NULL,
-  'All Blogs' => '所有网志',
+  'All Blogs' => '所有博客',
   'All Posts' => '所有文章',
   'Archive' => '封存',
-  'Archive Blog' => '封存网志',
+  'Archive Blog' => '封存博客',
   'Archive Post' => '封存文章',
-  'Archived Blogs' => '已封存的网志',
+  'Archived Blogs' => '已封存的博客',
   'Archived Post' => '已封存的文章',
   'Archived Posts' => '已封存的文章',
   'Archived or active status.' => NULL,
   'Archived post by %s.' => NULL,
   'Atom URI' => NULL,
   'Atom URI does not support custom domains.' => NULL,
-  'BLOG DETAIL' => '网志明细',
-  'Blog' => '网志',
-  'Blog Header' => NULL,
-  'Blog Picture' => NULL,
-  'Blog Post' => NULL,
-  'Blog Post: ' => NULL,
-  'Blog Posts' => NULL,
-  'Blog description.' => NULL,
-  'Blog full domain URI.' => NULL,
-  'Blog name.' => NULL,
-  'Blog parent domain name.' => NULL,
-  'Blog parent site name.' => NULL,
-  'Blog subtitle.' => NULL,
-  'Blog to publish this post to.' => NULL,
-  'Blog: %s' => '网志: %s',
-  'Blogs' => '网志',
+  'BLOG DETAIL' => '博客明细',
+  'Blog' => '博客',
+  'Blog Header' => '博客头条栏',
+  'Blog Picture' => '博客图片',
+  'Blog Post' => '博客文章',
+  'Blog Post: ' => '博客文章: ',
+  'Blog Posts' => '博客文章',
+  'Blog description.' => '博客描述',
+  'Blog full domain URI.' => '博客完整域名URI',
+  'Blog name.' => '博客名称',
+  'Blog parent domain name.' => '博客父域名',
+  'Blog parent site name.' => '博客父站名称',
+  'Blog subtitle.' => '博客副标题',
+  'Blog to publish this post to.' => '发布到博客',
+  'Blog: %s' => '博客: %s',
+  'Blogs' => '博客',
   'Body' => NULL,
   'Body of the post.' => NULL,
-  'Browse Blogs' => '浏览网志',
+  'Browse Blogs' => '浏览博客',
   'But the page you seek is elsewhere.' => NULL,
-  'Can Create Blogs' => '可建立网志',
+  'Can Create Blogs' => '可建立博客',
   'Change post body.' => NULL,
   'Change post visibility.' => NULL,
   'Change the blog description.' => NULL,
@@ -11400,15 +11400,15 @@ After you have set a password, you can login in the future by going here:
   'Change the blog subtitle.' => NULL,
   'Change the post subtitle.' => NULL,
   'Choose a blog to create a post on (or move a post to).' => NULL,
-  'Configure Blog Post Forms' => '设定网志文章表单',
-  'Configure Phame Blog Forms' => '设定 Phame 网志表单',
-  'Configure creation and editing blog posts in Phame.' => '设定在 Phame 的建立与编辑网志文章。',
-  'Configure how blogs in Phame are created and edited.' => '设定在 Phame 中要如何建立与编辑网志。',
-  'Create Blog' => '建立网志',
-  'Create New Blog' => '建立新网志',
+  'Configure Blog Post Forms' => '设定博客文章表单',
+  'Configure Phame Blog Forms' => '设定 Phame 博客表单',
+  'Configure creation and editing blog posts in Phame.' => '设定在 Phame 的建立与编辑博客文章。',
+  'Configure how blogs in Phame are created and edited.' => '设定在 Phame 中要如何建立与编辑博客。',
+  'Create Blog' => '建立博客',
+  'Create New Blog' => '建立新博客',
   'Create New Post' => '建立新文章',
   'Create Post' => '建立文章',
-  'Create a Blog' => '建立网志',
+  'Create a Blog' => '建立博客',
   'Create or edit blog posts in Phame.' => NULL,
   'Create or edit blogs in Phame.' => NULL,
   'Default create policy for blogs.' => NULL,
@@ -11433,8 +11433,8 @@ After you have set a password, you can login in the future by going here:
   'Invalid Policy' => NULL,
   'Invalid URI' => NULL,
   'Local Blog' => NULL,
-  'Manage Blog' => '管理网志',
-  'Manage Blogs' => '管理网志',
+  'Manage Blog' => '管理博客',
+  'Manage Blogs' => '管理博客',
   'Move Post' => NULL,
   'Name is required.' => '名称为必填。',
   'New blog description.' => NULL,
@@ -11449,8 +11449,8 @@ After you have set a password, you can login in the future by going here:
   'New post title.' => NULL,
   'New post visibility constant.' => NULL,
   'Next Post' => NULL,
-  'No blogs found.' => '查无网志。',
-  'No blogs posts found.' => '查无网志文章。',
+  'No blogs found.' => '查无博客。',
+  'No blogs posts found.' => '查无博客文章。',
   'No description.' => NULL,
   'No external domain' => NULL,
   'No one has written any blog posts yet.' => NULL,
@@ -11459,7 +11459,7 @@ After you have set a password, you can login in the future by going here:
   'Not On A Blog' => NULL,
   'Only you can see this archived post until you publish it. Use "Publish" to publish this post.' => NULL,
   'Only you can see this draft until you publish it. Use "Publish" to publish this post.' => NULL,
-  'Other blog activity not listed above occurs.' => '上述未列到的其他网志活动。',
+  'Other blog activity not listed above occurs.' => '上述未列到的其他博客活动。',
   'Other post activity not listed above occurs.' => '上述未列到的其他留言活动。',
   'PHID of the author of the post.' => NULL,
   'PHID of the blog that the post belongs to.' => NULL,
@@ -11471,11 +11471,11 @@ After you have set a password, you can login in the future by going here:
   'Parent Site Name' => '父网站名称',
   'Parent Site URI' => '父网站 URI',
   'Phame' => NULL,
-  'Phame Blog' => 'Phame 网志',
-  'Phame Blogs' => 'Phame 网志',
-  'Phame Post' => 'Phame 文章',
-  'Phame Posts' => 'Phame 文章',
-  'Phame User Guide' => 'Phame 使用指南',
+  'Phame Blog' => '博客',
+  'Phame Blogs' => '博客',
+  'Phame Post' => '文章',
+  'Phame Posts' => '文章',
+  'Phame User Guide' => '博客 使用指南',
   'Post' => NULL,
   'Post Header' => NULL,
   'Post History' => NULL,
@@ -11491,8 +11491,8 @@ After you have set a password, you can login in the future by going here:
   'Publish date, if the post has been published.' => NULL,
   'Published' => NULL,
   'Published Posts' => '已发佈的文章',
-  'React to Phame Blogs being created or updated.' => 'Phame 网志建立或更新时触发。',
-  'React to Phame Posts being created or updated.' => 'Phame 文章建立或更新时触发。',
+  'React to Phame Blogs being created or updated.' => '博客建立或更新时触发。',
+  'React to Phame Posts being created or updated.' => '博客文章建立或更新时触发。',
   'Read information about blog posts.' => NULL,
   'Read information about blogs.' => NULL,
   'Recent Posts' => '最近留言',
@@ -11500,7 +11500,7 @@ After you have set a password, you can login in the future by going here:
   'Retitle the post.' => NULL,
   'Search Posts' => '搜寻文章',
   'Search for posts within certain blogs.' => NULL,
-  'Serves blogs with custom domains.' => '提供网志自订的网域。',
+  'Serves blogs with custom domains.' => '提供博客自订的网域。',
   'Set Full Domain URI if you plan to serve this blog on another hosted domain. Parent Site Name and Parent Site URI are optional but helpful since they provide a link from the blog back to your parent site.' => NULL,
   'Slug for the post.' => NULL,
   'Someone comments on a post.' => '有人在留言评论。',
@@ -11513,7 +11513,7 @@ After you have set a password, you can login in the future by going here:
   'The selected blog subtitle is too long. The maximum length of a blog subtitle is 64 characters.' => NULL,
   'The selected blog title is too long. The maximum length of a blog title is 64 characters.' => NULL,
   'The specified blog PHID ("%s") is not valid. You can only create a post on (or move a post into) a blog which you have permission to see and edit.' => NULL,
-  'There aren\'t any visible blog posts.' => '目前没有任何可检视的网志文章。',
+  'There aren\'t any visible blog posts.' => '目前没有任何可检视的博客文章。',
   'This blog has no visible posts.' => NULL,
   'This blog is not visible to logged out users, so it can not be visited from a custom domain.' => NULL,
   'This blog will be marked as archived.' => NULL,
@@ -11540,7 +11540,7 @@ After you have set a password, you can login in the future by going here:
   'Write a Post' => NULL,
   'Written by %s on %s in %s.' => NULL,
   'Written by %s on %s.' => NULL,
-  'You do not have permission to create a blog.' => '您没有权限建立网志。',
+  'You do not have permission to create a blog.' => '您没有权限建立博客。',
   'You have no draft posts.' => NULL,
   'You must choose a file when uploading a new blog header.' => NULL,
   'You must choose a file when uploading a new blog picture.' => NULL,
@@ -11549,7 +11549,7 @@ After you have set a password, you can login in the future by going here:
   'here' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                    Phid                                    
+  //                                    Phid
   // ---------------------------------------------------------------------------
 
   '%s class "%s" has an invalid %s property. PHID constants must be a four character uppercase string.' => NULL,
@@ -11574,7 +11574,7 @@ After you have set a password, you can login in the future by going here:
   'Unknown Object (%s)' => '不明物件 (%s)',
 
   // ---------------------------------------------------------------------------
-  //                                    Phlux                                   
+  //                                    Phlux
   // ---------------------------------------------------------------------------
 
   '%s created this variable.' => '%s 建立了这个变数。',
@@ -11596,7 +11596,7 @@ After you have set a password, you can login in the future by going here:
   'Variable value must be valid JSON.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Pholio                                   
+  //                                   Pholio
   // ---------------------------------------------------------------------------
 
   '%s added %d image(s): %s.' => '%s 加入了 %d 张图片: %s。',
@@ -11655,14 +11655,14 @@ After you have set a password, you can login in the future by going here:
   'Open Mocks' => '开启的模型',
   'Open Pholio Mock' => NULL,
   'Other mock activity not listed above occurs.' => '上述未列到的其他模型活动。',
-  'Pholio' => NULL,
-  'Pholio Mock' => 'Pholio 模型',
-  'Pholio Mocks' => 'Pholio 模型',
+  'Pholio' => '设计',
+  'Pholio Mock' => '设计 模型',
+  'Pholio Mocks' => '设计 模型',
   'React to mocks being created or updated.' => '模型建立或更新时触发。',
   'Review Mocks and Design' => '审查模型与设计',
   'Save Draft' => '储存草稿',
   'Someone comments on a mock.' => '有人在模型评论。',
-  'Subject prefix for Pholio email.' => 'Pholio 邮件的主旨字首。',
+  'Subject prefix for Pholio email.' => '设计 邮件的主旨字首。',
   'Test rules which run when a mock is created or updated.' => NULL,
   'The image description was not updated.' => NULL,
   'The image sequence was not updated.' => NULL,
@@ -11679,7 +11679,7 @@ After you have set a password, you can login in the future by going here:
   'You must give the mock a name.' => '您必须给模型一个名称。',
 
   // ---------------------------------------------------------------------------
-  //                                  Phortune                                  
+  //                                  Phortune
   // ---------------------------------------------------------------------------
 
   '#%d' => NULL,
@@ -12160,7 +12160,7 @@ You can either use `stage.wepay.com` to retrieve test credentials, or `wepay.com
   'subscription creation' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Phpast                                   
+  //                                   Phpast
   // ---------------------------------------------------------------------------
 
   'Generate XHP AST' => '产生 XHP AST',
@@ -12173,7 +12173,7 @@ You can either use `stage.wepay.com` to retrieve test credentials, or `wepay.com
   'XHPAST View' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                  Phragment                                 
+  //                                  Phragment
   // ---------------------------------------------------------------------------
 
   '"%s" Snapshot' => '"%s" 快照',
@@ -12261,7 +12261,7 @@ You can either use `stage.wepay.com` to retrieve test credentials, or `wepay.com
   'ZIP Extension Not Installed' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                  Phrequent                                 
+  //                                  Phrequent
   // ---------------------------------------------------------------------------
 
   '%s (%s ago)' => '%s (%s 前)',
@@ -12308,7 +12308,7 @@ You can either use `stage.wepay.com` to retrieve test credentials, or `wepay.com
   'by nearest start date' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                  Phriction                                 
+  //                                  Phriction
   // ---------------------------------------------------------------------------
 
   '"%s" <%s>' => NULL,
@@ -12391,22 +12391,22 @@ You can either use `stage.wepay.com` to retrieve test credentials, or `wepay.com
   'No previous change' => '无之前的变更',
   'No such document exists.' => NULL,
   'No such document.' => NULL,
-  'Options related to Phriction (wiki).' => '有关 Phriction (wiki) 相关的选项。',
+  'Options related to Phriction (wiki).' => '有关 文档中心 (wiki) 相关的选项。',
   'Original Change' => '原始变更',
   'Other document activity not listed above occurs.' => '上述未列到的其他文件活动。',
   'Overwrite Changes' => NULL,
   'Page Not Found' => '查无此页',
-  'Phriction' => NULL,
-  'Phriction Documents' => 'Phriction 文件',
-  'Phriction User Guide' => 'Phriction 使用指南',
-  'Phriction Wiki Document' => 'Phriction Wiki 文件',
-  'Phriction is a simple and easy to use wiki for keeping track of documents and their changes.' => 'Phriction 是一个简单易用的 wiki 可用来追踪文件及内容的修改。',
+  'Phriction' => '文档中心 (wiki)',
+  'Phriction Documents' => '文档中心 (wiki) 文件',
+  'Phriction User Guide' => '文档中心 (wiki) 使用指南',
+  'Phriction Wiki Document' => '文档中心 (wiki) 文件',
+  'Phriction is a simple and easy to use wiki for keeping track of documents and their changes.' => '文档中心 (wiki) 是一个简单易用的 wiki 可用来追踪文件及内容的修改。',
   'Printable Page' => '可列印页面',
   'React to wiki documents being created or updated.' => 'Wiki 文件建立或更新时触发。',
   'Really delete this document? You can recover it later by reverting to a previous version.' => '确定要删除此文件? 您之后可以透过还原到前一个版本来恢复现有文件。',
   'Recovered Draft' => NULL,
-  'Retrieve history about a Phriction document.' => NULL,
-  'Retrieve information about a Phriction document.' => NULL,
+  'Retrieve history about a Phriction document.' => '从历史中调取 文档中心 (wiki)的文档',
+  'Retrieve information about a Phriction document.' => '从 文档中心 (wiki) 调取信息',
   'Revert to Version %s...' => '还原到版本 %s...',
   'Show Active Documents' => '显示使用中文件',
   'Show All Documents' => '显示所有文件',
@@ -12414,7 +12414,7 @@ You can either use `stage.wepay.com` to retrieve test credentials, or `wepay.com
   'Show Later Changes' => '显示之后变更',
   'Showing a saved draft of your edits, you can %s.' => NULL,
   'Stubbed' => NULL,
-  'Subject prefix for Phriction email.' => 'Phriction 邮件的主旨字首。',
+  'Subject prefix for Phriction email.' => '文档中心 (wiki) 邮件的主旨字首。',
   'Test rules which run when a wiki document is created or updated.' => NULL,
   'The document %s already exists. Do you want to edit it instead?' => NULL,
   'The path you entered (%s) is not a valid wiki document path. Paths may not contain spaces or special characters.' => NULL,
@@ -12433,7 +12433,7 @@ You can either use `stage.wepay.com` to retrieve test credentials, or `wepay.com
   'Unknown document status \'%s\'!' => NULL,
   'Update a Phriction document.' => NULL,
   'Version %s vs %s' => '版本 %s vs %s',
-  'Welcome to Phriction' => '欢迎光临 Phriction',
+  'Welcome to Phriction' => '欢迎光临 文档中心 (wiki)',
   'Wiki' => 'Wiki',
   'Wiki Document %d' => 'Wiki 文件 %d',
   'Wiki Documents' => 'Wiki 文件',
@@ -12445,7 +12445,7 @@ You can either use `stage.wepay.com` to retrieve test credentials, or `wepay.com
   '« Previous Change' => '« 前次变更',
 
   // ---------------------------------------------------------------------------
-  //                                    Phurl                                   
+  //                                    Phurl
   // ---------------------------------------------------------------------------
 
   '%s changed the alias from %s to %s.' => NULL,
@@ -12515,7 +12515,7 @@ You can either use `stage.wepay.com` to retrieve test credentials, or `wepay.com
   '[Phurl]' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Policy                                   
+  //                                   Policy
   // ---------------------------------------------------------------------------
 
   '%s (Project)' => '%s (专桉)',
@@ -12600,7 +12600,7 @@ This is intended for open source projects. Many installs will never want to make
 Enabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.
 
 With this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).' => NULL,
-  'Phabricator has application policies which can dictate whether users can take certain actions, such as creating new users. 
+  'Phabricator has application policies which can dictate whether users can take certain actions, such as creating new users.
 
 This setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.' => NULL,
   'Policy \'%s\' is not a global policy!' => NULL,
@@ -12677,7 +12677,7 @@ This setting allows for "locking" these policies such that no further edits can 
   'when the moon' => '当月',
 
   // ---------------------------------------------------------------------------
-  //                                   Ponder                                   
+  //                                   Ponder
   // ---------------------------------------------------------------------------
 
   '%s (Answer %s)' => '%s (解答 %s)',
@@ -12785,7 +12785,7 @@ This setting allows for "locking" these policies such that no further edits can 
   'Your answer must not be empty.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Project                                  
+  //                                   Project
   // ---------------------------------------------------------------------------
 
   '%s activated this project.' => '%s 启用了这个专桉。',
@@ -12959,7 +12959,7 @@ See [[ %s | Projects User Guide ]] in the documentation for details. This proces
   'Edit Background Color' => '编辑背景色彩',
   'Edit Column' => '编辑栏位',
   'Edit Details' => '编辑详细资讯',
-  'Edit Menu' => '编辑选单',
+  'Edit Menu' => '编辑菜单',
   'Edit Picture' => '编辑图片',
   'Edit Project Picture' => '编辑专桉图片',
   'Edit Project: %s' => '编辑专桉: %s',
@@ -13327,7 +13327,7 @@ This normally means //your// projects, but if you save a query using this functi
   'project' => '专桉',
 
   // ---------------------------------------------------------------------------
-  //                                   Releeph                                  
+  //                                   Releeph
   // ---------------------------------------------------------------------------
 
   '%d line(s) and %d path(s) contain changes to test code:
@@ -13562,7 +13562,7 @@ This normally means //your// projects, but if you save a query using this functi
   'reverted' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                  Remarkup                                  
+  //                                  Remarkup
   // ---------------------------------------------------------------------------
 
   'Content may not be empty.' => NULL,
@@ -13570,7 +13570,7 @@ This normally means //your// projects, but if you save a query using this functi
   'Process text through remarkup in Phabricator context.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                 Repository                                 
+  //                                 Repository
   // ---------------------------------------------------------------------------
 
   '%s (remote: "%s", local: "%s")' => NULL,
@@ -13766,7 +13766,7 @@ repository reparse --all TEST --owners --min-date "03/31/2013"' => NULL,
   'Expression "%s" is not a valid regular expression. Note that you must include delimiters.' => NULL,
   'Failed to parse line \'%s\'.' => NULL,
   'Failed to read stdin.' => NULL,
-  'For merge commits, shows merged changes in email.' => '针对合併提交，在邮件中显示已合併的变更。',
+  'For merge commits, shows merged changes in email.' => '针对合并提交，在邮件中显示已合并的变更。',
   'Found %s total commit(s); updating...' => NULL,
   'Git' => NULL,
   'Got an update message for repository "%s"!' => NULL,
@@ -13785,7 +13785,7 @@ repository reparse --all TEST --owners --min-date "03/31/2013"' => NULL,
   'Interrupted by pending updates!' => NULL,
   'List repository local paths.' => NULL,
   'Looking for new commits.' => NULL,
-  'MERGED COMMITS' => '已合併提交',
+  'MERGED COMMITS' => '已合并提交',
   'Manage the repository graph cache.' => NULL,
   'Mark __repository__ as imported.' => NULL,
   'Marking commit reachable.' => NULL,
@@ -13794,7 +13794,7 @@ repository reparse --all TEST --owners --min-date "03/31/2013"' => NULL,
   'Marking repository "%s" as importing.' => NULL,
   'Matching function "%s(...)" is not recognized. Valid functions are: regexp(...).' => NULL,
   'Mercurial' => NULL,
-  'Merged Commits' => '已合併提交',
+  'Merged Commits' => '已合并提交',
   'Mirror' => '镜像',
   'Missing commits (%s) in a SVN repository which is not configured for subdirectory-only parsing!' => NULL,
   'Most Recent Commit' => '最近的提交',
@@ -14092,7 +14092,7 @@ e.g.
   'tag:' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Search                                   
+  //                                   Search
   // ---------------------------------------------------------------------------
 
   '"%s" date can not be parsed.' => NULL,
@@ -14107,7 +14107,7 @@ e.g.
   'A cat can run seven times faster than a human, but only for a short distance.' => NULL,
   'A cat\'s visual, olfactory, and auditory senses, Contribute to their hunting skills and natural defenses.' => NULL,
   'A cattail is a wetland plant with an appearance that resembles the tail of a cat.' => NULL,
-  'Add New Menu Item...' => '加入新选单项目...',
+  'Add New Menu Item...' => '加入新菜单项目...',
   'Add to Dashboard' => '加入到资讯看板',
   'All Fulltext Search hosts failed:' => NULL,
   'All Objects' => '所有物件',
@@ -14140,21 +14140,21 @@ e.g.
   'Cats with high self-esteem seek out high perches to launch their attacks. Watch out!' => '高自尊的猫咪会寻找较高的栖息地发动攻击。要小心！',
   'Choose Item Icon' => NULL,
   'Circular Dependency' => NULL,
-  'Configure Menu' => '设定选单',
+  'Configure Menu' => '设定菜单',
   'Constraint "%s" is not a valid constraint for this query.' => NULL,
-  'Create Menu Item' => '建立选单项目',
+  'Create Menu Item' => '建立菜单项目',
   'Created By Me' => '由我建立',
   'Current Default' => '目前预设',
-  'Current Menu Items' => '目前选单项目',
+  'Current Menu Items' => '目前菜单项目',
   'Custom Query Constraints' => '自订查询限制',
   'DEV: New User State' => NULL,
   'DEV: Overheated State' => NULL,
   'Dashboard "%s" is not a valid dashboard which you have permission to see.' => NULL,
   'Date value for "%s" can not be parsed.' => NULL,
-  'Delete Menu Item' => '删除选单项目',
+  'Delete Menu Item' => '删除菜单项目',
   'Delete Query' => '删除查询',
-  'Delete this menu item?' => '删除这个选单项目?',
-  'Disable Menu Item' => '关闭选单项目',
+  'Delete this menu item?' => '删除这个菜单项目?',
+  'Disable Menu Item' => '关闭菜单项目',
   'Disable Query' => '关闭查询',
   'Disable Query?' => '关闭查询?',
   'Disable this menu item? It will no longer appear in the menu, but you can re-enable it later.' => NULL,
@@ -14163,15 +14163,15 @@ e.g.
   'Document Types' => '文件类型',
   'Document has no PHID!' => NULL,
   'Edit Builtin Item' => '编辑内建项目',
-  'Edit Menu Item' => '编辑选单项目',
-  'Edit Menu Item: %s' => '编辑选单项目: %s',
+  'Edit Menu Item' => '编辑菜单项目',
+  'Edit Menu Item: %s' => '编辑菜单项目: %s',
   'Edit Profile Menu Item Configurations' => NULL,
   'Edit Queries...' => '编辑查询...',
   'Edit Query' => '编辑查询',
   'Edit Related Objects...' => '编辑相关的物件...',
   'Edit Saved Query' => '编辑储存的查询',
-  'Edit the global default menu for all users.' => '编辑所有使用者的全域预设选单。',
-  'Edit the menu for your personal account.' => '编辑您个人帐号的选单。',
+  'Edit the global default menu for all users.' => '编辑所有使用者的全域预设菜单。',
+  'Edit the menu for your personal account.' => '编辑您个人帐号的菜单。',
   'Elasticsearch server returned invalid JSON!' => NULL,
   'Enable Menu Item' => NULL,
   'Enable Query' => NULL,
@@ -14195,7 +14195,7 @@ e.g.
   'Full-Text Search' => '全文搜寻',
   'Fulltext Engine' => 'Fulltext 引擎',
   'Fulltext Search Results' => NULL,
-  'Global Menu Items' => '全域选单项目',
+  'Global Menu Items' => '全域菜单项目',
   'Hide Query' => '隐藏查询',
   'IDs' => NULL,
   'Ignored Common Word' => NULL,
@@ -14212,16 +14212,16 @@ e.g.
   'Link' => '连结',
   'Lisk Builtin Properties' => NULL,
   'Make Default' => '设为预设',
-  'Manage Menu' => '管理选单',
+  'Manage Menu' => '管理菜单',
   'Mandatory Item' => NULL,
   'Many cats appear black in low light, suffering a -2 modifier to luck rolls.' => NULL,
   'Maximum page size for Conduit API method calls is 100, but this call specified %s.' => NULL,
-  'Menu Item' => '选单项目',
-  'Menu Items' => '选单项目',
+  'Menu Item' => '菜单项目',
+  'Menu Items' => '菜单项目',
   'Minimum page size for API searches is 1, but this call specified %s.' => NULL,
   'Most objects matching your query are not visible to you, so filtering results is taking a long time. Only some results are shown. Refine your query to find results more quickly.' => NULL,
   'Most objects matching your query are not visible to you, so filtering results is taking a long time. Refine your query to find results more quickly.' => NULL,
-  'Motivate your team with inspirational quotes from great minds. This menu item shows a new quote every day.' => '用伟大思想的励志名言来激励您的组员。此选单项目会每天显示一句新名言。',
+  'Motivate your team with inspirational quotes from great minds. This menu item shows a new quote every day.' => '用伟大思想的励志名言来激励您的组员。此菜单项目会每天显示一句新名言。',
   'Motivator' => '励志名言',
   'Motivator: %s' => '励志名言: %s',
   'N/A' => NULL,
@@ -14246,10 +14246,10 @@ e.g.
   'Outside of the CAT scan, cats have made almost no contributions to modern medicine.' => NULL,
   'PHIDs' => NULL,
   'Paging and Limits' => '分页与限制',
-  'Personal Menu Items' => '个人选单项目',
+  'Personal Menu Items' => '个人菜单项目',
   'Profile Menu Item' => NULL,
-  'Profile Menu Items' => '基本资料选单项目',
-  'Profile Menu User Guide' => '基本资料选单使用指南',
+  'Profile Menu Items' => '基本资料菜单项目',
+  'Profile Menu User Guide' => '基本资料菜单使用指南',
   'Profile menu items can not be generated without an object context.' => NULL,
   'Project "%s" is not a valid project which you have permission to see.' => '专桉 "%s" 是您有权限查看的无效专桉。',
   'Provide one of \'%s\', \'%s\' or a list of object names.' => NULL,
@@ -14303,10 +14303,10 @@ e.g.
   'This call does not support any attachments.' => NULL,
   'This engine is used to modify menu items on profiles.' => NULL,
   'This is a standard **ApplicationSearch** method which will let you list, query, or search for objects. For documentation on these endpoints, see **[[ %s | Conduit API: Using Search Endpoints ]]**.' => NULL,
-  'This is a visual divider which you can use to separate sections in the menu. It does not have any configurable options.' => '这个一个视觉的分隔线，可以让您用来分隔选单中的小节。此项目没有任何以设定的选项。',
+  'This is a visual divider which you can use to separate sections in the menu. It does not have any configurable options.' => '这个一个视觉的分隔线，可以让您用来分隔菜单中的小节。此项目没有任何以设定的选项。',
   'This item can not be set as the default item. This is usually because the item has no page of its own, or links to an external page.' => NULL,
   'This item is already set as the default item for this menu.' => NULL,
-  'This menu currently has no items.' => '此选单目前没有选目。',
+  'This menu currently has no items.' => '此菜单目前没有选目。',
   'This menu item is very important, and can not be disabled.' => NULL,
   'This query specifies an invalid parameter. Review the query parameters and correct errors.' => NULL,
   'Too many relationships (%s, of type "%s").' => NULL,
@@ -14344,7 +14344,7 @@ e.g.
   '—' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                  Settings                                  
+  //                                  Settings
   // ---------------------------------------------------------------------------
 
   '' => NULL,
@@ -14498,7 +14498,7 @@ For complete instructions on editor configuration, see **[[ %s | %s ]]**.' => '�
   'Permission for desktop notifications was denied. Only application notifications will be sent.' => '桌面通知的权限已被拒绝，只会发送应用程式通知。',
   'Personal Account Settings' => '个人帐号设定',
   'Personal Settings' => '个人设定',
-  'Phabricator normally shows diffs in a side-by-side layout on large screens and automatically switches to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them for use on all displays.' => 'Phabricator 一般会在较大萤幕上使用併排检视显示 diff，在较小的萤幕 (如: 行动电话) 上自动切换为合併检视。',
+  'Phabricator normally shows diffs in a side-by-side layout on large screens and automatically switches to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them for use on all displays.' => 'Phabricator 一般会在较大萤幕上使用併排检视显示 diff，在较小的萤幕 (如: 行动电话) 上自动切换为合并检视。',
   'Phabricator uses unicode glyphs in page titles to provide a compact representation of the current application. You can substitute plain text instead if these glyphs do not display on your system.' => 'Phabricator 会在页面标题使用 Unicode 符号以精简表示目前的应用程式，若这些符号无法在您的系统上显示，您可以更改为纯文字。',
   'Pinned Applications' => '已钉选的应用程式',
   'Policy Favorites' => NULL,
@@ -14532,7 +14532,7 @@ For complete instructions on editor configuration, see **[[ %s | %s ]]**.' => '�
   'Should Phabricator send desktop notifications? These are sent in addition to the notifications within the Phabricator application.' => 'Phabricator 是否要传送桌面通知? 除了传送 Phabricator 应用程式内的通知外还会传送桌面通知。',
   'Show Filetree' => '显示档桉树',
   'Show Older Inlines' => '显示旧内行',
-  'Show Unified Diffs' => '显示合併 Diff',
+  'Show Unified Diffs' => '显示合并 Diff',
   'Silly Translations' => NULL,
   'Some editors support opening multiple files with a single URI. You can specify the behavior of your editor here.' => '部份编辑器支援使用单一 URI 开启多个档桉，您可以在此指定您的编辑器要採用的方式。',
   'Sunday' => '星期日',
@@ -14645,7 +14645,7 @@ These preferences **only** apply to objects you are connected to (for example, R
   '⚫ Email' => '⚫ 邮件通知',
 
   // ---------------------------------------------------------------------------
-  //                                  Slowvote                                  
+  //                                  Slowvote
   // ---------------------------------------------------------------------------
 
   '%s (%d / %d)' => NULL,
@@ -14714,7 +14714,7 @@ These preferences **only** apply to objects you are connected to (for example, R
   'You must vote to see the results.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Spaces                                   
+  //                                   Spaces
   // ---------------------------------------------------------------------------
 
   '%s activated this space.' => '%s 启用了这个 Space。',
@@ -14771,7 +14771,7 @@ These preferences **only** apply to objects you are connected to (for example, R
   'You do not have permission to create spaces.' => '您没有权限建立空间。',
 
   // ---------------------------------------------------------------------------
-  //                                Subscriptions                               
+  //                                Subscriptions
   // ---------------------------------------------------------------------------
 
   '%d other(s)' => '%d 其他',
@@ -14817,13 +14817,13 @@ Users who are CC\'d on the email itself are also automatically subscribed if Pha
   'subscribers' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Support                                  
+  //                                   Support
   // ---------------------------------------------------------------------------
 
   'Support' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   System                                   
+  //                                   System
   // ---------------------------------------------------------------------------
 
   '%d / hour' => '%d / 小时',
@@ -14892,7 +14892,7 @@ These tattered edges are an expected consequence of destroying objects, and the 
   'You are performing too many actions too quickly.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Tokens                                   
+  //                                   Tokens
   // ---------------------------------------------------------------------------
 
   '"%s" token, awarded by %s.' => NULL,
@@ -14944,7 +14944,7 @@ These tattered edges are an expected consequence of destroying objects, and the 
   'Yellow Medal' => '黄色奖章',
 
   // ---------------------------------------------------------------------------
-  //                                Transactions                                
+  //                                Transactions
   // ---------------------------------------------------------------------------
 
   '!%s (or %s)' => NULL,
@@ -14963,7 +14963,7 @@ These tattered edges are an expected consequence of destroying objects, and the 
   '%s added %s watcher(s): %s.' => '%s 加入了 %s 位监视者: %s。',
   '%s added a comment to %s.' => '%s 加入了一则评论到 %s。',
   '%s added a comment.' => '%s 新增了一则评论。',
-  '%s added this form to the "Create" menu.' => '%s 加入了这个表单到 "建立" 选单。',
+  '%s added this form to the "Create" menu.' => '%s 加入了这个表单到 "建立" 菜单。',
   '%s awarded a token.' => '%s 颁发了一个奖励。',
   '%s changed locked and hidden fields.' => NULL,
   '%s changed the default value for field "%s".' => NULL,
@@ -15083,7 +15083,7 @@ These tattered edges are an expected consequence of destroying objects, and the 
   'Disable Form' => '关闭表单',
   'Disable this form? Users will no longer be able to use it.' => '关闭这个表单? 使用者将无法再使用这个表单。',
   'Do you want to post your comment anyway?' => NULL,
-  'Drag and drop fields to change the order in which they appear in the application "Create" menu.' => '拖曳栏位来更改显示于应用程式 "建立" 选单的顺序。',
+  'Drag and drop fields to change the order in which they appear in the application "Create" menu.' => '拖曳栏位来更改显示于应用程式 "建立" 菜单的顺序。',
   'Drag and drop fields to change their priority for edits. When a user edits an object, they will be shown the first form in this list that they have permission to see.' => '拖曳栏位来更改编辑的优先权。当使用者编辑物件时将会显示此清单中该使用者拥有权限看到的第一个表单。',
   'Drag and drop fields to reorder them.' => '拖曳栏位来重新排序栏位。',
   'EDIT DETAILS' => '编辑明细',
@@ -15154,7 +15154,7 @@ These tattered edges are an expected consequence of destroying objects, and the 
   'Mark as "Edit" Form' => '标记为 "编辑" 表单',
   'Mark as Create Form' => '标记为建立表单',
   'Mark as Edit Form' => '标记为编辑表单',
-  'Mark this form as a create form? It will appear in the application "Create" menus by default.' => '标记这个表单为建立表单? 这个表单将会预设显示在应用程式的 "建立" 选单中。',
+  'Mark this form as a create form? It will appear in the application "Create" menus by default.' => '标记这个表单为建立表单? 这个表单将会预设显示在应用程式的 "建立" 菜单中。',
   'Mark this form as an edit form? Users who can view it will be able to use it to edit objects.' => '标记这个表单为编辑表单? 可以检视此表单的使用者将可以使用此表单来编辑物件。',
   'Mention' => NULL,
   'Mention In' => NULL,
@@ -15288,7 +15288,7 @@ These tattered edges are an expected consequence of destroying objects, and the 
   '🔒 Locked' => '🔒 已锁定',
 
   // ---------------------------------------------------------------------------
-  //                                  Typeahead                                 
+  //                                  Typeahead
   // ---------------------------------------------------------------------------
 
   'Auto' => NULL,
@@ -15335,7 +15335,7 @@ Note that different controls support //different// functions (depending on what 
   'You reach the edge of the abyss.' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                  Uiexample                                 
+  //                                  Uiexample
   // ---------------------------------------------------------------------------
 
   '%s Stackered' => NULL,
@@ -15689,7 +15689,7 @@ Note that different controls support //different// functions (depending on what 
   148 => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Unused                                   
+  //                                   Unused
   // ---------------------------------------------------------------------------
 
   'Banish %s from the realm?' => '从这个王国放逐 %s?',
@@ -15725,7 +15725,7 @@ Note that different controls support //different// functions (depending on what 
   '%s added %s badge(s): %s.' => '%s 加入了 %d 个徽章: %s。',
   'No matching commits.' => '无符合的提交。',
   '%s Documentation' => '%s 文件',
-  '%s Triggered Audit' => '%s 触发的稽查',
+  '%s Triggered Audit' => '%s 触发的审查',
   '%s activated this badge.' => '%s 启用了这个徽章。',
   '%s activated this dashboard' => '%s 启用了这个资讯看板。',
   '%s adjusted autoreview from "%s" to "%s".' => '%s 调整了自动审查从 "%s" 为 "%s"。',
@@ -15734,7 +15734,7 @@ Note that different controls support //different// functions (depending on what 
   '%s archived this dashboard' => '%s 封存了这个资讯看板。',
   '%s renamed this badge from "%s" to "%s".' => '%s 重新命名了这个徽章从 "%s" 为 "%s"。',
   '%s renamed this package from "%s" to "%s".' => '%s 重新命名了这个套件从 "%s" 为 "%s"。',
-  'Add Auditors' => '加入稽查员',
+  'Add Auditors' => '加入审查员',
   'Added by %s.' => '由 %s 加入。',
   'Alias Too Long' => '别名太长',
   'All day' => '整天',
@@ -15763,12 +15763,12 @@ Note that different controls support //different// functions (depending on what 
 See [[ %s | Projects User Guide ]] in the documentation for details. This process can not be undone.' => 'Creating a project\'s first subproject **moves all members** to become members of the subproject instead
 
 See [[ %s | Projects User Guide ]] in the documentation for details. This process can not be undone.',
-  'Customize Menu...' => '自订选单...',
+  'Customize Menu...' => '自订菜单...',
   'Dashboard %d' => '资讯看板 %d',
   'Default Dashboard for All Users' => '预设给所有使用者的资讯看板',
   'Disable Highlighting' => '关闭语法标示',
   'Drag and drop an image here to upload it.' => '拖曳图片到此处来上传图片。',
-  'Drag tabs to reorder menu' => '拖曳页籤来重新排序选单',
+  'Drag tabs to reorder menu' => '拖曳页籤来重新排序菜单',
   'Edit Diffusion Commit' => '编辑 Diffusion 提交',
   'Edit Profile Panel Configurations' => '编辑基本资料面板组态',
   'Edit Revision: %s' => '编辑修订: %s',
@@ -15797,11 +15797,11 @@ See [[ %s | Projects User Guide ]] in the documentation for details. This proces
   'MySQL is configured to search on fulltext indexes using "OR" by default. Using "AND" is usually the desired behaviour.' => 'MySQL 已设定为在全文索引搜寻时预设使用 "OR"，通常需要的是使用 "AND"。',
   'MySQL is not in strict mode, but using strict mode is strongly encouraged.' => 'MySQL 未使用严谨模式，强列建议使用严谨模式。',
   'MySQL is using a default stopword file, which will prevent searching for many common words.' => 'MySQL 使用预设的 stopword 档，会无法搜寻许多常用字。',
-  'Needs Audit' => '需要稽查',
-  'Needs Audit By' => '需要稽查由',
+  'Needs Audit' => '需要审查',
+  'Needs Audit By' => '需要审查由',
   'New Simple Dashboard' => '新简易资讯看板',
-  'No matching audits.' => '无符合的稽查。',
-  'Open Audits' => '未完成的稽查',
+  'No matching audits.' => '无符合的审查。',
+  'Open Audits' => '未完成的审查',
   'POLICIES' => '原则',
   'Parent Revisions' => '父修订',
   'Personal Home Page Dashboard' => '个人首页资讯看板',
@@ -15811,7 +15811,7 @@ See [[ %s | Projects User Guide ]] in the documentation for details. This proces
   'Quick Actions' => '快速操作',
   'Remove Panel %s' => '移除面板 %s',
   'Reset to Defaults' => '重设为预设值',
-  'Resign from Audit' => '放弃稽查',
+  'Resign from Audit' => '放弃审查',
   'Save Custom Query...' => '储存自订查询...',
   'Search All Documents' => '搜寻所有文件',
   'Search Current Application' => '搜寻目前应用程式',
@@ -15839,7 +15839,7 @@ To install this dashboard on the home page, use the **Install Dashboard** action
   'You do not have permission to edit this dashboard panel, but you can make a copy and edit that instead. If you choose to copy the panel, the original will be replaced with the new copy on this dashboard.' => '您没有权限编辑这个资讯看板面板，但您仍可複製并编辑。若您选择要複製面板，原来在这个资讯看板上的面板将会替换为新複製的面板。',
   'You do not have permission to edit this dashboard. If you want to make changes, make a copy first.' => '您没有权限编辑这个资讯看板。若您想要做变更，请先複製一份。',
   'You will be re-directed to your bland, default home page if you choose to uninstall this dashboard.' => '若您选择要解除安装这个资讯看板，您将会被重新导向到枯燥乏味的预设首页。',
-  'added auditors to' => '加入了稽查员到',
+  'added auditors to' => '加入了审查员到',
   'closed' => '已完成',
   '%s added %s files(s).' => '%s 加入了 %s 个档桉。',
   'You have no messages.' => '您没有任何讯息',
@@ -15852,7 +15852,7 @@ You\'ve adjusted at least one setting on your account. To make more adjustments,
 
 You\'ve configured at least one setting from the web interface. To configure more settings later, use the **[[ %s | Config Application ]]**.' => '=== 设定 Phabricator 设定项目 ===
 
-您已从网页介面设定了至少一项设定项目。往后要设定更多的设定项目可使用 **[[ %s | Config 应用程式 ]]**。',
+您已从网页界面设定了至少一项设定项目。往后要设定更多的设定项目可使用 **[[ %s | Config 应用程式 ]]**。',
   '=== Customize Home Page ===
 
 When you\'re done setting things up, you can create a custom dashboard and install it. Your dashboard will replace this welcome screen on the Phabricator home page. Dashboards can show users the information that\'s most important to your organization. You can configure them to display things like: a custom welcome message, a feed of recent activity, or a list of open tasks, waiting reviews, recent commits, and so on. After you install a default dashboard, it will replace this page. You can find this page later by visiting the **Config** application, under **Welcome Page**. To get started building a dashboard, use the **[[ %s | Dashboards Application ]]**. ' => '=== 自订首页 ===
@@ -15866,7 +15866,7 @@ To explore all of the Phabricator applications, adjust settings, or uninstall ap
 
 Phabricator 是一大套应用程式一起运作来协助您开发软体、管理工作与沟通。有一小部份最常用的应用程式预设已经钉选到左方的导览列。
 
-要探索所有 Phabricator 的应用程式、调整设定或解除安装您不计划使用的应用程式请至 **[[ %s | 应用程式应用程式 ]]**。您也可以点选于左方导览选单的 **应用程式** 按钮或在主选单列用名称搜寻应用程式。',
+要探索所有 Phabricator 的应用程式、调整设定或解除安装您不计划使用的应用程式请至 **[[ %s | 应用程式应用程式 ]]**。您也可以点选于左方导览菜单的 **应用程式** 按钮或在主菜单列用名称搜寻应用程式。',
   '=== Install Phabricator ===
 
 You have successfully installed Phabricator. This screen will guide you through configuration and orientation. These steps are optional, and you can go through them in any order. If you want to get back to this screen later on, you can find it in the **Config** application under **Welcome Screen**.' => '=== 安装 Phabricator ===
@@ -15909,13 +15909,13 @@ For more information, see these articles in the documentation:
 
 使用 **[[ %s | Differential ]]** 来审查程式码，工程师可以使用 Differential 来分享、审查并核准对原始码的更改。要开始使用程式码审查:
 
-  - **[[ %s | 建立一个修订 ]]** //(可从指令列複製并贴上 diff 到网页介面来试试审查。)//
+  - **[[ %s | 建立一个修订 ]]** //(可从指令列複製并贴上 diff 到网页界面来试试审查。)//
   - **[[ %s | 检视所有修订 ]]**
 
 要取得更多资讯，请参考以下说明文件中的文章:
 
   - **[[ %s | Differential 使用者指南 ]]**, 有关 Differential 的简介。
-  - **[[ %s | 使用者指南: 审查与稽查 ]]**, 探讨有关两种不同的程式码审查流程。',
+  - **[[ %s | 使用者指南: 审查与审查 ]]**, 探讨有关两种不同的程式码审查流程。',
   '=== Quick Start: Design Review ===
 
 Review proposed designs with **[[ %s | Pholio ]]**. Designers can use Pholio to share images of what they\'re working on and show off things they\'ve made. To get started with design review:
@@ -15941,7 +15941,7 @@ For more information, see these articles in the documentation:
 
 Phabricator supports Git, Mercurial and Subversion.' => '=== 快速入门: 档桉库 ===
 
-使用 **[[ %s | Diffusion ]]** 可以管理与浏览原始码。工程师可以使用 Diffusion 来浏览并稽查原始码，您可以设定 Phabricator 来代管档桉库，或者让 Phabricator 追踪一个由其他地方代管的既有档桉库 (例如 GitHub, Bitbucket, 或者内部伺服器)。要开始使用档桉库:
+使用 **[[ %s | Diffusion ]]** 可以管理与浏览原始码。工程师可以使用 Diffusion 来浏览并审查原始码，您可以设定 Phabricator 来代管档桉库，或者让 Phabricator 追踪一个由其他地方代管的既有档桉库 (例如 GitHub, Bitbucket, 或者内部服务器)。要开始使用档桉库:
 
   - **[[ %s | 建立新档桉库 ]]**
   - **[[ %s | 检视所有档桉库 ]]**
@@ -15962,11 +15962,11 @@ You have some unresolved setup issues to take care of. Click the link in the yel
   '=Setup and Configuration' => '=安装与设定',
   'Configure Applications' => '设定应用程式',
   '(Detect From Filename in Title)' => '(使用标题的档名字称辨识)',
-  'Cluster Notification Status' => '丛集通知状态',
+  'Cluster Notification Status' => '集群通知状态',
   'Configure Harbormaster build engine.' => '设定 Harbormaster 编译引擎。',
   'Configure Phrequent.' => '设定 Phrequent。',
   'Core Configuration' => '核心设定',
-  'Databases' => '资料库',
+  'Databases' => '数据库',
   'DestructionEngine Extensions' => 'DestructionEngine 扩充套件',
   'EditEngine Extensions' => 'EditEngine 扩充套件',
   'FulltextEngine Extensions' => 'Fulltext 扩充套件',
@@ -16113,7 +16113,7 @@ You **MUST** specify the root of the repository, not a subdirectory. (If you wan
   'Import a Git repository (for example, a repository hosted on GitHub).' => '汇入 Git 档桉库 (例如由 GitHub 代管的档桉库)。',
   'Import a Mercurial repository (for example, a repository hosted on Bitbucket).' => '汇入 Mercurial 档桉库 (例如由 Bitbucket 代管的档桉库)。',
   'Import a Subversion repository.' => '汇入 Subversion 档桉库。',
-  'Import a repository hosted somewhere else, like GitHub, Bitbucket, or your organization\'s existing servers. Phabricator will read changes from the repository but will not host or manage it. The authoritative master version of the repository will stay where it is now.' => '汇入一个已架设在其他地方的档桉库，例如在 GitHub, Bitbucket 或是您的组织既有的伺服器上。Phabricator 将会从档桉库上读取变更旳资讯，但不会管理该档桉库。档桉库管理的主要版本仍会留在目前的所在位置。',
+  'Import a repository hosted somewhere else, like GitHub, Bitbucket, or your organization\'s existing servers. Phabricator will read changes from the repository but will not host or manage it. The authoritative master version of the repository will stay where it is now.' => '汇入一个已架设在其他地方的档桉库，例如在 GitHub, Bitbucket 或是您的组织既有的服务器上。Phabricator 将会从档桉库上读取变更旳资讯，但不会管理该档桉库。档桉库管理的主要版本仍会留在目前的所在位置。',
   'Import an Existing External Repository' => '汇入既有的外部档桉库',
   'In Any Project' => '于任何专桉内',
   'In page titles, show Tool names as plain text: [Differential]' => '在页面标题将工具名称以纯文字显示: [Differential]',
@@ -16122,8 +16122,8 @@ You **MUST** specify the root of the repository, not a subdirectory. (If you wan
   'Link to edit files in external editor. %%f is replaced by filename, %%l by line number, %%r by repository callsign, %%%% by literal %%. For documentation, see: %s' => '在外部编辑器编辑档桉的连结。%%f 会以档名取代、%%l 为行号、%%r 为档桉库代号、%%%% 为文字 %%。说明文件请参考 %s。',
   'Manage Attached %s' => '管理已连结的 %s',
   'Manage Credentials' => '管理凭证',
-  'Merge %s' => '合併 %s',
-  'Merge Duplicate Tasks' => '合併重複工作',
+  'Merge %s' => '合并 %s',
+  'Merge Duplicate Tasks' => '合并重复工作',
   'Never send email notifications' => '永不发送邮件通知',
   'New Workboard' => '新增工作看板',
   'No Workboard' => '无工作看板',
@@ -16134,11 +16134,11 @@ You **MUST** specify the root of the repository, not a subdirectory. (If you wan
   'No revisions require your action.' => '没修订需要您做后续动作。',
   'No similar questions found.' => '查无相似的问题。',
   'No tasks in projects you are a member of need triage.' => '您没有专桉工作需要分级。',
-  'Notification Server not enabled.' => '尚未开启通知伺服器',
+  'Notification Server not enabled.' => '尚未开启通知服务器',
   'Notifications Only' => '仅通知',
   'Notifications only.' => '仅通知。',
   'Overrides default fonts in tools like Differential. Input should be valid CSS "font" declaration, such as "13px Consolas"' => '覆盖工具如 Differential 的预设字型。输入内容应为有效的 CSS "字型" 宣告，例如 "13px Consolas"',
-  'Phabricator normally shows diffs in a side-by-side layout on large screens, and automatically switches to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them as the default layout.' => 'Phabricator 正常会在较大的画面使用併排版面显示 Diff，并在较小的画面自动切换合併检视 (如: 行动电话)。若您即使在较大的画面仍偏好合併检视，您可以选择合併检视做为预设版面。 ',
+  'Phabricator normally shows diffs in a side-by-side layout on large screens, and automatically switches to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them as the default layout.' => 'Phabricator 正常会在较大的画面使用併排版面显示 Diff，并在较小的画面自动切换合并检视 (如: 行动电话)。若您即使在较大的画面仍偏好合并检视，您可以选择合并检视做为预设版面。 ',
   'Prevent members from leaving this project.' => '避免成员离开此专桉。',
   'Primary Hashtag' => '主要 Hashtag',
   'Project Activity' => '专桉活动',
@@ -16173,9 +16173,9 @@ You **MUST** specify the root of the repository, not a subdirectory. (If you wan
   'Start Now' => '现在开始',
   'Start importing the repository right away. This will import the entire repository using default settings.' => '立即开始汇入档桉库，这个动作将会使用预设设定来汇入整个档桉库。',
   'Supported (paths separated by spaces)' => '支援 (路径使用空白分隔)',
-  'Tasks To Merge' => '要合併的工作',
+  'Tasks To Merge' => '要合并的工作',
   'These settings let you control how Phabricator notifies you about events. You can configure Phabricator to send you an email, just send a web notification, or not notify you at all.' => '这些设定可让您控制 Phabricator 要如何通知您有关事件的资讯，您可以设定 Phabricator 发送邮件给您、只发送网站通知或不做任何通知。',
-  'These tasks will be merged into the current task and then closed. The current task will grow stronger.' => '这些工作将会被合併到目前的工作然后关闭，目前的工作将会变的更完整。',
+  'These tasks will be merged into the current task and then closed. The current task will grow stronger.' => '这些工作将会被合并到目前的工作然后关闭，目前的工作将会变的更完整。',
   'This will be displayed as the header of the column.' => '名称将会显示在该栏的最上方。',
   'Time-of-Day Format' => '时间格式',
   'Type a user, project, or mailing list name...' => '请输入使用者、专桉或邮递清单名称...',
@@ -16196,7 +16196,7 @@ You **MUST** specify the root of the repository, not a subdirectory. (If you wan
   'Subtasks' => '子工作',
 
   // ---------------------------------------------------------------------------
-  //                                    View                                    
+  //                                    View
   // ---------------------------------------------------------------------------
 
   '%s (Preview)' => '%s (预览)',
@@ -16324,7 +16324,7 @@ You **MUST** specify the root of the repository, not a subdirectory. (If you wan
   'name' => NULL,
 
   // ---------------------------------------------------------------------------
-  //                                   Xhprof                                   
+  //                                   Xhprof
   // ---------------------------------------------------------------------------
 
   '%s Profile' => NULL,
